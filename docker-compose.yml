@@ -20,6 +20,8 @@ services:
     # run .sql files from /backups queries to the container on initialization
     volumes:
       - ./backups:/docker-entrypoint-initdb.d
+    ports:
+      - "5432:5432"
 
   adminer:
     image: adminer

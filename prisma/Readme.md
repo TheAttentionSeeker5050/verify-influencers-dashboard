@@ -1,6 +1,8 @@
 # Prisma migration
 
-# Applying Database Migrations on PostgreSQL schema 
+## Explanation of the models
+
+## Applying Database Migrations on PostgreSQL schema 
 After defining your models, the next step is to apply these changes to your PostgreSQL database by running migrations. Migrations are used to update the database schema in a controlled and repeatable way.
 
 1. Create Migration Files: Use Prisma CLI to create migration files based on the models you defined in the schema.prisma file.
@@ -78,3 +80,5 @@ This API route uses the Prisma client to fetch all records from the User model a
 npm run dev
 ```
 
+## Sources
+[Prisma implementation guide with Next.js](https://www.dhiwise.com/post/building-a-full-stack-app-with-nextjs-postgres-and-prisma)

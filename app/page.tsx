@@ -5,11 +5,11 @@ import Link from 'next/link'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faThumbsUp } from '@fortawesome/free-solid-svg-icons'
 
-export default function Page() {
-  return (
-    <div>
+export default function DashboardPage() {
+  return (<main>
       <h1>Home</h1>
-      <Link href="/about">About</Link>
-    </div>
-  )
+      <Link href="/leaderboard">Leaderboard</Link>
+      <Link href="/research">Run Research Task</Link>
+
+    </main>)
 }

@@ -1,0 +1,426 @@
+[
+    {
+      "name": "Athletic Foodie",
+      "twitterHandle": "@athleticfoodie"
+    },
+    {
+      "name": "Craig Ballantyne",
+      "twitterHandle": "@craigballantyne"
+    },
+    {
+      "name": "Bandana Training",
+      "twitterHandle": "@bandanatraining"
+    },
+    {
+      "name": "Joy Bauer",
+      "twitterHandle": "@joybauer"
+    },
+    {
+      "name": "Ed Bennett",
+      "twitterHandle": "@edbennett"
+    },
+    {
+      "name": "Martin Berkhan",
+      "twitterHandle": "@martinberkhan"
+    },
+    {
+      "name": "Mark Bittman",
+      "twitterHandle": "@bittman"
+    },
+    {
+      "name": "Adam Bornstein",
+      "twitterHandle": "@bornfitness"
+    },
+    {
+      "name": "Christopher Brisley",
+      "twitterHandle": "@takeachallenge"
+    },
+    {
+      "name": "Elena Brower",
+      "twitterHandle": "@elenabrower"
+    },
+    {
+      "name": "Lisa Cain",
+      "twitterHandle": "@snack_girl_"
+    },
+    {
+      "name": "Kris Carr",
+      "twitterHandle": "@kris_carr"
+    },
+    {
+      "name": "Jonas Caruana",
+      "twitterHandle": "@jonosapien"
+    },
+    {
+      "name": "Carlo Celotti",
+      "twitterHandle": "@carlocelotti"
+    },
+    {
+      "name": "CJ Nutrition",
+      "twitterHandle": "@cjnutrition"
+    },
+    {
+      "name": "Daily Burn",
+      "twitterHandle": "@dailyburn"
+    },
+    {
+      "name": "Mark Dilworth",
+      "twitterHandle": "@myfitnesshut"
+    },
+    {
+      "name": "Susan Dopart",
+      "twitterHandle": "@smnutritionist"
+    },
+    {
+      "name": "Joe Dowdell",
+      "twitterHandle": "@joedowdellnyc"
+    },
+    {
+      "name": "Mitzi Dulan",
+      "twitterHandle": "@nutritionexpert"
+    },
+    {
+      "name": "John Durant",
+      "twitterHandle": "@johndurant"
+    },
+    {
+      "name": "Michael Eades",
+      "twitterHandle": "@dreades"
+    },
+    {
+      "name": "Elana's Pantry",
+      "twitterHandle": "@elanaspantry"
+    },
+    {
+      "name": "Tim Ferriss",
+      "twitterHandle": "@tferriss"
+    },
+    {
+      "name": "Jason Ferruggia",
+      "twitterHandle": "@jasonferruggia"
+    },
+    {
+      "name": "Fit Bottomed Girl",
+      "twitterHandle": "@fitbottomedgirl"
+    },
+    {
+      "name": "Fitnessista",
+      "twitterHandle": "@fitnessista"
+    },
+    {
+      "name": "Derek Flanzraich",
+      "twitterHandle": "@thederek"
+    },
+    {
+      "name": "BJ Fogg",
+      "twitterHandle": "@bjfogg"
+    },
+    {
+      "name": "Keri Gans",
+      "twitterHandle": "@kerigans"
+    },
+    {
+      "name": "Kate Gold",
+      "twitterHandle": "@katefgold"
+    },
+    {
+      "name": "Jonathan Goodman",
+      "twitterHandle": "@jon_ptdc"
+    },
+    {
+      "name": "Greatist",
+      "twitterHandle": "@greatist"
+    },
+    {
+      "name": "Sanjay Gupta",
+      "twitterHandle": "@drsanjaygupta"
+    },
+    {
+      "name": "Jeff Halevy",
+      "twitterHandle": "@jeffhalevy"
+    },
+    {
+      "name": "Gena Hamshaw",
+      "twitterHandle": "@choosingraw"
+    },
+    {
+      "name": "Bob Harper",
+      "twitterHandle": "@mytrainerbob"
+    },
+    {
+      "name": "Joel Harper",
+      "twitterHandle": "@joelharperfit"
+    },
+    {
+      "name": "Katie Hobson",
+      "twitterHandle": "@katherinehobson"
+    },
+    {
+      "name": "Amie Hoff",
+      "twitterHandle": "@amiehofffitness"
+    },
+    {
+      "name": "Stephen Holt",
+      "twitterHandle": "@stephenholt"
+    },
+    {
+      "name": "Mark Hyman",
+      "twitterHandle": "@markhymanmd"
+    },
+    {
+      "name": "Chalene Johnson",
+      "twitterHandle": "@chalenejohnson"
+    },
+    {
+      "name": "Douglas Kalman",
+      "twitterHandle": "@dougkalmanphdrd"
+    },
+    {
+      "name": "Sala Kannan",
+      "twitterHandle": "@veggiebelly"
+    },
+    {
+      "name": "David L. Katz",
+      "twitterHandle": "@drdavidkatz"
+    },
+    {
+      "name": "Shelby Lane",
+      "twitterHandle": "@shelbylanemd"
+    },
+    {
+      "name": "Amy Layne",
+      "twitterHandle": "@damyhealth"
+    },
+    {
+      "name": "Dina Lindquist",
+      "twitterHandle": "@nutritiousfeast"
+    },
+    {
+      "name": "Frank Lipman",
+      "twitterHandle": "@drfranklipman"
+    },
+    {
+      "name": "Chris McDougall",
+      "twitterHandle": "@mcdougallchris"
+    },
+    {
+      "name": "Men's Health Food",
+      "twitterHandle": "@guygourmet"
+    },
+    {
+      "name": "Meaghan B. Murphy",
+      "twitterHandle": "@meaghanbmurphy"
+    },
+    {
+      "name": "Sadie Nardini",
+      "twitterHandle": "@sadienardini"
+    },
+    {
+      "name": "Nerd Fitness",
+      "twitterHandle": "@nerdfitness"
+    },
+    {
+      "name": "Josh Nesbit",
+      "twitterHandle": "@joshnesbit"
+    },
+    {
+      "name": "Marion Nestle",
+      "twitterHandle": "@marionnestle"
+    },
+    {
+      "name": "Keith Norris",
+      "twitterHandle": "@keithnorris"
+    },
+    {
+      "name": "Kelly Olexa",
+      "twitterHandle": "@kellyolexa"
+    },
+    {
+      "name": "Rebecca Pacheco",
+      "twitterHandle": "@omgal"
+    },
+    {
+      "name": "Tara Parker-Pope",
+      "twitterHandle": "@taraparkerpope"
+    },
+    {
+      "name": "Jay Parkinson",
+      "twitterHandle": "@jayparkinson"
+    },
+    {
+      "name": "Gunnar Peterson",
+      "twitterHandle": "@gunnar"
+    },
+    {
+      "name": "Kevin Pho",
+      "twitterHandle": "@kevinmd"
+    },
+    {
+      "name": "Brad Pilon",
+      "twitterHandle": "@bradpilon"
+    },
+    {
+      "name": "Michael Pollan",
+      "twitterHandle": "@michaelpollan"
+    },
+    {
+      "name": "Stephanie Quilao",
+      "twitterHandle": "@skinnyjeans"
+    },
+    {
+      "name": "John Romaniello",
+      "twitterHandle": "@johnromaniello"
+    },
+    {
+      "name": "Scott iRunner Blog",
+      "twitterHandle": "@irunnerblog"
+    },
+    {
+      "name": "Jane Sarasohn-Kahn",
+      "twitterHandle": "@healthythinker"
+    },
+    {
+      "name": "Cynthia Sass",
+      "twitterHandle": "@cynthiasass"
+    },
+    {
+      "name": "Lou Schuler",
+      "twitterHandle": "@louschuler"
+    },
+    {
+      "name": "Rebecca Scritchfield",
+      "twitterHandle": "@scritchfieldrd"
+    },
+    {
+      "name": "Lori Shemek",
+      "twitterHandle": "@lorishemek"
+    },
+    {
+      "name": "Debi Silber",
+      "twitterHandle": "@themojocoach"
+    },
+    {
+      "name": "Mark Sisson",
+      "twitterHandle": "@mark_sisson"
+    },
+    {
+      "name": "Ted Spiker",
+      "twitterHandle": "@profspiker"
+    },
+    {
+      "name": "Sarah Stanley",
+      "twitterHandle": "@sarahstanley"
+    },
+    {
+      "name": "Nell Stephenson",
+      "twitterHandle": "@nellstephenson"
+    },
+    {
+      "name": "Tara Stiles",
+      "twitterHandle": "@tarastiles"
+    },
+    {
+      "name": "Lisa Stollman",
+      "twitterHandle": "@eatwellrd"
+    },
+    {
+      "name": "Bobby Storm",
+      "twitterHandle": "@bobbystorm"
+    },
+    {
+      "name": "Trink Fitness",
+      "twitterHandle": "@trinkfitness"
+    },
+    {
+      "name": "Gloria Tsang",
+      "twitterHandle": "@healthcastleglo"
+    },
+    {
+      "name": "Bryan Vartabedian",
+      "twitterHandle": "@doctor_v"
+    },
+    {
+      "name": "Tom Venuto",
+      "twitterHandle": "@tomvenuto"
+    },
+    {
+      "name": "Karla Walsh",
+      "twitterHandle": "@fitnesskarla"
+    },
+    {
+      "name": "Andrew Weil",
+      "twitterHandle": "@drweil"
+    },
+    {
+      "name": "Katy Widrick",
+      "twitterHandle": "@kwidrick"
+    },
+    {
+      "name": "Robb Wolf",
+      "twitterHandle": "@robbwolf"
+    },
+    {
+      "name": "Yoga Dork",
+      "twitterHandle": "@yogadork"
+    },
+    {
+      "name": "Mike Young",
+      "twitterHandle": "@mikeyoung"
+    },
+    {
+      "name": "Zen to Fitness",
+      "twitterHandle": "@zentofitness"
+    },
+    {
+      "name": "Elisa Zied",
+      "twitterHandle": "@elisazied"
+    },
+    {
+      "name": "Dave Zinczenko",
+      "twitterHandle": "@davezinczenko"
+    },
+    {
+      "name": "Alexander Cortes",
+      "twitterHandle": "@AJA_Cortes"
+    },
+    {
+      "name": "Oliver Anwar",
+      "twitterHandle": "@oliver_anwar"
+    },
+    {
+      "name": "Mackenzie Smith",
+      "twitterHandle": "@mackenziesmithh"
+    },
+    {
+      "name": "Monica Reinagel",
+      "twitterHandle": "@NutritionDiva"
+    },
+    {
+      "name": "Chris Kresser",
+      "twitterHandle": "@ChrisKresser"
+    },
+    {
+      "name": "Dr. John La Puma",
+      "twitterHandle": "@JohnLaPuma"
+    },
+    {
+      "name": "Linda Miner",
+      "twitterHandle": "@Linda_Miner"
+    },
+    {
+      "name": "TeamNutrition",
+      "twitterHandle": "@TeamNutrition"
+    },
+    {
+      "name": "Dwayne \"The Rock\" Johnson",
+      "twitterHandle": "@TheRock"
+    },
+    {
+      "name": "Joe Wicks",
+      "twitterHandle": "@thebodycoach"
+    },
+    {
+      "name": "Cassey Ho",
+      "twitterHandle": "@blogilates"
+    }
+  ]

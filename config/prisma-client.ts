@@ -5,7 +5,7 @@ import { PrismaClient } from '@prisma/client';
 // make a singleton instance of PrismaClient
 let prisma: PrismaClient | null = null;
 
-export default function getClient() {
+export default function getPrismaClient() {
   if (!prisma) {
     prisma = new PrismaClient();
   }

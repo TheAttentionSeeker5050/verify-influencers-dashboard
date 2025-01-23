@@ -12,3 +12,48 @@ datasource db {
   provider = "postgresql"
   url      = env("POSTGRES_DATABASE_URL")
 }
+
+// The `Category` model has: id (integer), name, createdAt, updatedAt
+model Category {
+  id         Int          @id @default(autoincrement())
+  name       String
+  createdAt  DateTime     @default(now())
+  updatedAt  DateTime     @updatedAt
+  Influencer Influencer[]
+  Claim      Claim[]
+}
+
+// The `Influencer` model has: id(int), rank (int), name, category, trustScore (float), trendDirection (string), followersCount (int), verifiedClaimsCount (int), yearlyRevenue, recommendedProducts, createdAt, updatedAt
+model Influencer {
+  id                  Int      @id @default(autoincrement())
+  rank                Int?
+  name                String
+  twitterHandle       String
+  category            Category? @relation(fields: [categoryId], references: [id])
+  categoryId          Int?
+  trustScore          Float?  
+  trendDirection      String?
+  followersCount      Int?    
+  verifiedClaimsCount Int?     
+  createdAt           DateTime @default(now())
+  updatedAt           DateTime @updatedAt
+  Claim               Claim[]
+  yearlyRevenue       Float?
+  recommendedProducts String?
+}
+
+// The `Claim` model has: id (int), influencer, claim (string), tweetId (string), verificationStatus [verified, questionable, debunked], category, createdAt, updatedAt
+model Claim {
+  id                 Int        @id @default(autoincrement())
+  influencer         Influencer @relation(fields: [influencerId], references: [id])
+  influencerId       Int
+  claim              String
+  tweetId            String
+  verificationStatus String
+  category           Category   @relation(fields: [categoryId], references: [id])
+  categoryId         Int
+  createdAt          DateTime   @default(now())
+  updatedAt          DateTime   @updatedAt
+}
+
+
