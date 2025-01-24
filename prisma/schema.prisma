@@ -27,8 +27,9 @@ model Category {
 model Influencer {
   id                  Int      @id @default(autoincrement())
   rank                Int?
-  name                String
-  twitterHandle       String
+  name                String @unique
+  description         String?
+  twitterHandle       String @unique
   category            Category? @relation(fields: [categoryId], references: [id])
   categoryId          Int?
   trustScore          Float?  
@@ -51,9 +52,12 @@ model Claim {
   tweetId            String
   verificationStatus String
   category           Category   @relation(fields: [categoryId], references: [id])
-  categoryId         Int
+  categoryId         Int // this category is different from the category of the influencer
   createdAt          DateTime   @default(now())
   updatedAt          DateTime   @updatedAt
+  aiAnalysis         String?
+  trustScore         Float?
+  claimSource        String?
 }
 
 

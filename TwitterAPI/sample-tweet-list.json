@@ -1,0 +1,2638 @@
+{
+    "results": [
+        {
+            "tweet_id": "1859587771737714695",
+            "creation_date": "Thu Nov 21 13:20:48 +0000 2024",
+            "text": "To drink or not to drink … that’s the question.⁠\n⁠\nMore and more women are answering “yes” to that question and now binge-drinking is on the rise among midlife.⁠\n⁠\nIn the week’s episode, we dive into the impact of alcohol on health.\n⁠\nhttps://t.co/NXGyBm0mxY https://t.co/A9HSaP3Sqv",
+            "media_url": null,
+            "video_url": [
+                {
+                    "url": "https://video.twimg.com/ext_tw_video/1859587574961930240/pu/vid/avc1/320x568/hS7CjAbOjlPy4Uvn.mp4?tag=12",
+                    "bitrate": 632000,
+                    "content_type": "video/mp4"
+                },
+                {
+                    "url": "https://video.twimg.com/ext_tw_video/1859587574961930240/pu/vid/avc1/480x852/nJQ1we8_uG9GZImT.mp4?tag=12",
+                    "bitrate": 950000,
+                    "content_type": "video/mp4"
+                },
+                {
+                    "url": "https://video.twimg.com/ext_tw_video/1859587574961930240/pu/vid/avc1/720x1280/_RSpanfSi2uIlkvs.mp4?tag=12",
+                    "bitrate": 2176000,
+                    "content_type": "video/mp4"
+                }
+            ],
+            "user": {
+                "creation_date": "Thu Jul 03 18:22:30 +0000 2008",
+                "user_id": "15311044",
+                "username": "FitBottomedGirl",
+                "name": "Fit Bottomed Girls",
+                "follower_count": 73098,
+                "following_count": 4098,
+                "favourites_count": 8012,
+                "is_private": false,
+                "is_verified": false,
+                "is_blue_verified": false,
+                "location": "",
+                "profile_pic_url": "https://pbs.twimg.com/profile_images/998273766714044416/ww4OuMRe_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/15311044/1496404465",
+                "description": "You can't hate yourself healthy. Check out all of our free workouts here: https://t.co/4MdxPJAkPJ 💪🏿💪🏽💪🏻",
+                "external_url": "https://t.co/spIANkmunE",
+                "number_of_tweets": 82828,
+                "bot": false,
+                "timestamp": 1215109350,
+                "has_nft_avatar": false,
+                "category": null,
+                "default_profile": false,
+                "default_profile_image": false,
+                "listed_count": null,
+                "verified_type": null
+            },
+            "language": "en",
+            "favorite_count": 1,
+            "retweet_count": 0,
+            "reply_count": 0,
+            "quote_count": 0,
+            "retweet": false,
+            "views": 1333,
+            "timestamp": 1732195248,
+            "video_view_count": null,
+            "in_reply_to_status_id": null,
+            "quoted_status_id": null,
+            "binding_values": null,
+            "expanded_url": "https://fitbottomedgirls.com/2024/11/podcast-episode-146-the-impact-of-alcohol-on-women-in-midlife-with-krysty-krywko/",
+            "retweet_tweet_id": null,
+            "extended_entities": {
+                "media": [
+                    {
+                        "additional_media_info": {
+                            "monetizable": false
+                        },
+                        "display_url": "pic.x.com/A9HSaP3Sqv",
+                        "expanded_url": "https://x.com/FitBottomedGirl/status/1859587771737714695/video/1",
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "id_str": "1859587574961930240",
+                        "indices": [
+                            259,
+                            282
+                        ],
+                        "media_key": "7_1859587574961930240",
+                        "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1859587574961930240/pu/img/DpaCwqKrNoPxayev.jpg",
+                        "original_info": {
+                            "width": 1080,
+                            "height": 1920,
+                            "focus_rects": []
+                        },
+                        "sizes": {
+                            "large": {
+                                "w": 1080,
+                                "h": 1920
+                            }
+                        },
+                        "type": "video",
+                        "url": "https://t.co/A9HSaP3Sqv",
+                        "video_info": {
+                            "aspect_ratio": [
+                                9,
+                                16
+                            ],
+                            "duration_millis": 105656,
+                            "variants": [
+                                {
+                                    "url": "https://video.twimg.com/ext_tw_video/1859587574961930240/pu/pl/QXI55upudzueAD92.m3u8?tag=12",
+                                    "content_type": "application/x-mpegURL"
+                                },
+                                {
+                                    "url": "https://video.twimg.com/ext_tw_video/1859587574961930240/pu/vid/avc1/320x568/hS7CjAbOjlPy4Uvn.mp4?tag=12",
+                                    "content_type": "video/mp4",
+                                    "bitrate": 632000
+                                },
+                                {
+                                    "url": "https://video.twimg.com/ext_tw_video/1859587574961930240/pu/vid/avc1/480x852/nJQ1we8_uG9GZImT.mp4?tag=12",
+                                    "content_type": "video/mp4",
+                                    "bitrate": 950000
+                                },
+                                {
+                                    "url": "https://video.twimg.com/ext_tw_video/1859587574961930240/pu/vid/avc1/720x1280/_RSpanfSi2uIlkvs.mp4?tag=12",
+                                    "content_type": "video/mp4",
+                                    "bitrate": 2176000
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "conversation_id": "1859587771737714695",
+            "retweet_status": null,
+            "quoted_status": null,
+            "bookmark_count": 0,
+            "source": null,
+            "community_note": null
+        },
+        {
+            "tweet_id": "1859271902499402043",
+            "creation_date": "Wed Nov 20 16:25:39 +0000 2024",
+            "text": "Here’s a tough truth -- striving for any of these things creates a shaky foundation... NOT confidence.🫣 ⁠\n⁠\nLink in bio // visit https://t.co/Bbc43urhdR to read the full blog about building sustainable confidence💪 ⁠\n\nhttps://t.co/YJ4O25HCWm https://t.co/GcOzsw5MqI",
+            "media_url": [
+                "https://pbs.twimg.com/media/Gc11zRdXcAgRnuW.jpg"
+            ],
+            "video_url": null,
+            "user": {
+                "creation_date": "Thu Jul 03 18:22:30 +0000 2008",
+                "user_id": "15311044",
+                "username": "FitBottomedGirl",
+                "name": "Fit Bottomed Girls",
+                "follower_count": 73098,
+                "following_count": 4098,
+                "favourites_count": 8012,
+                "is_private": false,
+                "is_verified": false,
+                "is_blue_verified": false,
+                "location": "",
+                "profile_pic_url": "https://pbs.twimg.com/profile_images/998273766714044416/ww4OuMRe_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/15311044/1496404465",
+                "description": "You can't hate yourself healthy. Check out all of our free workouts here: https://t.co/4MdxPJAkPJ 💪🏿💪🏽💪🏻",
+                "external_url": "https://t.co/spIANkmunE",
+                "number_of_tweets": 82828,
+                "bot": false,
+                "timestamp": 1215109350,
+                "has_nft_avatar": false,
+                "category": null,
+                "default_profile": false,
+                "default_profile_image": false,
+                "listed_count": null,
+                "verified_type": null
+            },
+            "language": "en",
+            "favorite_count": 1,
+            "retweet_count": 0,
+            "reply_count": 1,
+            "quote_count": 0,
+            "retweet": false,
+            "views": 1014,
+            "timestamp": 1732119939,
+            "video_view_count": null,
+            "in_reply_to_status_id": null,
+            "quoted_status_id": null,
+            "binding_values": null,
+            "expanded_url": "http://fitbottomedgirls.com",
+            "retweet_tweet_id": null,
+            "extended_entities": {
+                "media": [
+                    {
+                        "display_url": "pic.x.com/GcOzsw5MqI",
+                        "expanded_url": "https://x.com/FitBottomedGirl/status/1859271902499402043/photo/1",
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "features": {
+                            "large": {
+                                "faces": []
+                            }
+                        },
+                        "id_str": "1859271744894234632",
+                        "indices": [
+                            241,
+                            264
+                        ],
+                        "media_key": "3_1859271744894234632",
+                        "media_url_https": "https://pbs.twimg.com/media/Gc11zRdXcAgRnuW.jpg",
+                        "original_info": {
+                            "width": 1080,
+                            "height": 1350,
+                            "focus_rects": [
+                                {
+                                    "x": 0,
+                                    "y": 474,
+                                    "w": 1080,
+                                    "h": 605
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 236,
+                                    "w": 1080,
+                                    "h": 1080
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 119,
+                                    "w": 1080,
+                                    "h": 1231
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 675,
+                                    "h": 1350
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1080,
+                                    "h": 1350
+                                }
+                            ]
+                        },
+                        "sizes": {
+                            "large": {
+                                "w": 1080,
+                                "h": 1350
+                            }
+                        },
+                        "type": "photo",
+                        "url": "https://t.co/GcOzsw5MqI"
+                    }
+                ]
+            },
+            "conversation_id": "1859271902499402043",
+            "retweet_status": null,
+            "quoted_status": null,
+            "bookmark_count": 0,
+            "source": null,
+            "community_note": null
+        },
+        {
+            "tweet_id": "1858880581041369163",
+            "creation_date": "Tue Nov 19 14:30:41 +0000 2024",
+            "text": "If confidence feels like a destination you’re constantly trying to ‘arrive at’ but never actually reaching… our new blog post is for you.👀 ⁠\n⁠\nThis blog dismantles common myths &amp; breaks down how you can build sustainable confidence.\n\nhttps://t.co/YJ4O25HCWm https://t.co/WAk11bL4FE",
+            "media_url": [
+                "https://pbs.twimg.com/media/GcwR51yWoAAqf5x.jpg"
+            ],
+            "video_url": null,
+            "user": {
+                "creation_date": "Thu Jul 03 18:22:30 +0000 2008",
+                "user_id": "15311044",
+                "username": "FitBottomedGirl",
+                "name": "Fit Bottomed Girls",
+                "follower_count": 73098,
+                "following_count": 4098,
+                "favourites_count": 8012,
+                "is_private": false,
+                "is_verified": false,
+                "is_blue_verified": false,
+                "location": "",
+                "profile_pic_url": "https://pbs.twimg.com/profile_images/998273766714044416/ww4OuMRe_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/15311044/1496404465",
+                "description": "You can't hate yourself healthy. Check out all of our free workouts here: https://t.co/4MdxPJAkPJ 💪🏿💪🏽💪🏻",
+                "external_url": "https://t.co/spIANkmunE",
+                "number_of_tweets": 82828,
+                "bot": false,
+                "timestamp": 1215109350,
+                "has_nft_avatar": false,
+                "category": null,
+                "default_profile": false,
+                "default_profile_image": false,
+                "listed_count": null,
+                "verified_type": null
+            },
+            "language": "en",
+            "favorite_count": 0,
+            "retweet_count": 0,
+            "reply_count": 0,
+            "quote_count": 0,
+            "retweet": false,
+            "views": 914,
+            "timestamp": 1732026641,
+            "video_view_count": null,
+            "in_reply_to_status_id": null,
+            "quoted_status_id": null,
+            "binding_values": null,
+            "expanded_url": "https://fitbottomedgirls.com/2024/11/build-sustainable-self-confidence-to-slay-the-new-year/",
+            "retweet_tweet_id": null,
+            "extended_entities": {
+                "media": [
+                    {
+                        "display_url": "pic.x.com/WAk11bL4FE",
+                        "expanded_url": "https://x.com/FitBottomedGirl/status/1858880581041369163/photo/1",
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "features": {
+                            "large": {
+                                "faces": []
+                            }
+                        },
+                        "id_str": "1858880431585665024",
+                        "indices": [
+                            262,
+                            285
+                        ],
+                        "media_key": "3_1858880431585665024",
+                        "media_url_https": "https://pbs.twimg.com/media/GcwR51yWoAAqf5x.jpg",
+                        "original_info": {
+                            "width": 1080,
+                            "height": 1350,
+                            "focus_rects": [
+                                {
+                                    "x": 0,
+                                    "y": 609,
+                                    "w": 1080,
+                                    "h": 605
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 270,
+                                    "w": 1080,
+                                    "h": 1080
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 119,
+                                    "w": 1080,
+                                    "h": 1231
+                                },
+                                {
+                                    "x": 405,
+                                    "y": 0,
+                                    "w": 675,
+                                    "h": 1350
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1080,
+                                    "h": 1350
+                                }
+                            ]
+                        },
+                        "sizes": {
+                            "large": {
+                                "w": 1080,
+                                "h": 1350
+                            }
+                        },
+                        "type": "photo",
+                        "url": "https://t.co/WAk11bL4FE"
+                    }
+                ]
+            },
+            "conversation_id": "1858880581041369163",
+            "retweet_status": null,
+            "quoted_status": null,
+            "bookmark_count": 0,
+            "source": null,
+            "community_note": null
+        },
+        {
+            "tweet_id": "1858599965473284170",
+            "creation_date": "Mon Nov 18 19:55:37 +0000 2024",
+            "text": "Motherhood doesn’t have to mean losing movement, just adapting it! From 3-minute flows to sidewalk sprints, see how Naomi stays moving even with little ones. 🏃‍♀️ ⁠\n⁠\nhttps://t.co/NFzITZXgjF https://t.co/AN2l5suSAp",
+            "media_url": [
+                "https://pbs.twimg.com/media/GcsSsArXIAA9SZ9.jpg"
+            ],
+            "video_url": null,
+            "user": {
+                "creation_date": "Thu Jul 03 18:22:30 +0000 2008",
+                "user_id": "15311044",
+                "username": "FitBottomedGirl",
+                "name": "Fit Bottomed Girls",
+                "follower_count": 73098,
+                "following_count": 4098,
+                "favourites_count": 8012,
+                "is_private": false,
+                "is_verified": false,
+                "is_blue_verified": false,
+                "location": "",
+                "profile_pic_url": "https://pbs.twimg.com/profile_images/998273766714044416/ww4OuMRe_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/15311044/1496404465",
+                "description": "You can't hate yourself healthy. Check out all of our free workouts here: https://t.co/4MdxPJAkPJ 💪🏿💪🏽💪🏻",
+                "external_url": "https://t.co/spIANkmunE",
+                "number_of_tweets": 82828,
+                "bot": false,
+                "timestamp": 1215109350,
+                "has_nft_avatar": false,
+                "category": null,
+                "default_profile": false,
+                "default_profile_image": false,
+                "listed_count": null,
+                "verified_type": null
+            },
+            "language": "en",
+            "favorite_count": 0,
+            "retweet_count": 0,
+            "reply_count": 0,
+            "quote_count": 0,
+            "retweet": false,
+            "views": 737,
+            "timestamp": 1731959737,
+            "video_view_count": null,
+            "in_reply_to_status_id": null,
+            "quoted_status_id": null,
+            "binding_values": null,
+            "expanded_url": "https://fitbottomedgirls.com/2024/11/5-ways-to-make-daily-movement-easier-for-moms/",
+            "retweet_tweet_id": null,
+            "extended_entities": {
+                "media": [
+                    {
+                        "display_url": "pic.x.com/AN2l5suSAp",
+                        "expanded_url": "https://x.com/FitBottomedGirl/status/1858599965473284170/photo/1",
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "features": {
+                            "large": {
+                                "faces": [
+                                    {
+                                        "x": 942,
+                                        "y": 816,
+                                        "h": 121,
+                                        "w": 121
+                                    }
+                                ]
+                            }
+                        },
+                        "id_str": "1858599818525876224",
+                        "indices": [
+                            191,
+                            214
+                        ],
+                        "media_key": "3_1858599818525876224",
+                        "media_url_https": "https://pbs.twimg.com/media/GcsSsArXIAA9SZ9.jpg",
+                        "original_info": {
+                            "width": 1080,
+                            "height": 1350,
+                            "focus_rects": [
+                                {
+                                    "x": 0,
+                                    "y": 271,
+                                    "w": 1080,
+                                    "h": 605
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 33,
+                                    "w": 1080,
+                                    "h": 1080
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1080,
+                                    "h": 1231
+                                },
+                                {
+                                    "x": 236,
+                                    "y": 0,
+                                    "w": 675,
+                                    "h": 1350
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1080,
+                                    "h": 1350
+                                }
+                            ]
+                        },
+                        "sizes": {
+                            "large": {
+                                "w": 1080,
+                                "h": 1350
+                            }
+                        },
+                        "type": "photo",
+                        "url": "https://t.co/AN2l5suSAp"
+                    }
+                ]
+            },
+            "conversation_id": "1858599965473284170",
+            "retweet_status": null,
+            "quoted_status": null,
+            "bookmark_count": 0,
+            "source": null,
+            "community_note": null
+        },
+        {
+            "tweet_id": "1858252681833218322",
+            "creation_date": "Sun Nov 17 20:55:38 +0000 2024",
+            "text": "Your friendly Sunday reminder from our resident weightlifting badass, FBG Alison @itsalisonheilig 🔥💪🏼⁠\n⁠\nPS, don’t wanna miss a moment of FBG content? Join our email list to get all the latest and greatest from us delivered straight to your inbox. 💌\n\nhttps://t.co/3puUSkncyW? https://t.co/t70dl1U1rP",
+            "media_url": [
+                "https://pbs.twimg.com/media/GcnW04rW8AA17S6.jpg"
+            ],
+            "video_url": null,
+            "user": {
+                "creation_date": "Thu Jul 03 18:22:30 +0000 2008",
+                "user_id": "15311044",
+                "username": "FitBottomedGirl",
+                "name": "Fit Bottomed Girls",
+                "follower_count": 73098,
+                "following_count": 4098,
+                "favourites_count": 8012,
+                "is_private": false,
+                "is_verified": false,
+                "is_blue_verified": false,
+                "location": "",
+                "profile_pic_url": "https://pbs.twimg.com/profile_images/998273766714044416/ww4OuMRe_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/15311044/1496404465",
+                "description": "You can't hate yourself healthy. Check out all of our free workouts here: https://t.co/4MdxPJAkPJ 💪🏿💪🏽💪🏻",
+                "external_url": "https://t.co/spIANkmunE",
+                "number_of_tweets": 82828,
+                "bot": false,
+                "timestamp": 1215109350,
+                "has_nft_avatar": false,
+                "category": null,
+                "default_profile": false,
+                "default_profile_image": false,
+                "listed_count": null,
+                "verified_type": null
+            },
+            "language": "en",
+            "favorite_count": 0,
+            "retweet_count": 0,
+            "reply_count": 0,
+            "quote_count": 0,
+            "retweet": false,
+            "views": 660,
+            "timestamp": 1731876938,
+            "video_view_count": null,
+            "in_reply_to_status_id": null,
+            "quoted_status_id": null,
+            "binding_values": null,
+            "expanded_url": "https://miles-to-go-athletics.ck.page/ba47dc6adf",
+            "retweet_tweet_id": null,
+            "extended_entities": {
+                "media": [
+                    {
+                        "display_url": "pic.x.com/t70dl1U1rP",
+                        "expanded_url": "https://x.com/FitBottomedGirl/status/1858252681833218322/photo/1",
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "features": {
+                            "large": {
+                                "faces": [
+                                    {
+                                        "x": 740,
+                                        "y": 1081,
+                                        "h": 162,
+                                        "w": 162
+                                    },
+                                    {
+                                        "x": 468,
+                                        "y": 130,
+                                        "h": 272,
+                                        "w": 272
+                                    }
+                                ]
+                            }
+                        },
+                        "id_str": "1858252525322825728",
+                        "indices": [
+                            276,
+                            299
+                        ],
+                        "media_key": "3_1858252525322825728",
+                        "media_url_https": "https://pbs.twimg.com/media/GcnW04rW8AA17S6.jpg",
+                        "original_info": {
+                            "width": 1080,
+                            "height": 1350,
+                            "focus_rects": [
+                                {
+                                    "x": 0,
+                                    "y": 1,
+                                    "w": 1080,
+                                    "h": 605
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1080,
+                                    "h": 1080
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1080,
+                                    "h": 1231
+                                },
+                                {
+                                    "x": 371,
+                                    "y": 0,
+                                    "w": 675,
+                                    "h": 1350
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1080,
+                                    "h": 1350
+                                }
+                            ]
+                        },
+                        "sizes": {
+                            "large": {
+                                "w": 1080,
+                                "h": 1350
+                            }
+                        },
+                        "type": "photo",
+                        "url": "https://t.co/t70dl1U1rP"
+                    }
+                ]
+            },
+            "conversation_id": "1858252681833218322",
+            "retweet_status": null,
+            "quoted_status": null,
+            "bookmark_count": 0,
+            "source": null,
+            "community_note": null
+        },
+        {
+            "tweet_id": "1857826138535399675",
+            "creation_date": "Sat Nov 16 16:40:42 +0000 2024",
+            "text": "What tunes are in your headphones during your deadlifts these days?!🎧🎵 \n\nPS, don’t wanna miss a moment of FBG content? Join our email list to get all the latest and greatest from us delivered straight to your inbox. 💌 \n\nhttps://t.co/3puUSkncyW?\n⁠\n#fitbottomedgirl #workout https://t.co/2tYlfhWkfZ",
+            "media_url": null,
+            "video_url": [
+                {
+                    "url": "https://video.twimg.com/ext_tw_video/1857825964438192128/pu/vid/avc1/320x568/1rF_9PB48-BjUgx8.mp4?tag=12",
+                    "bitrate": 632000,
+                    "content_type": "video/mp4"
+                },
+                {
+                    "url": "https://video.twimg.com/ext_tw_video/1857825964438192128/pu/vid/avc1/480x852/8fhizCVLKsmY5rgy.mp4?tag=12",
+                    "bitrate": 950000,
+                    "content_type": "video/mp4"
+                },
+                {
+                    "url": "https://video.twimg.com/ext_tw_video/1857825964438192128/pu/vid/avc1/720x1278/3G0nsx8U-sx9GJfk.mp4?tag=12",
+                    "bitrate": 2176000,
+                    "content_type": "video/mp4"
+                }
+            ],
+            "user": {
+                "creation_date": "Thu Jul 03 18:22:30 +0000 2008",
+                "user_id": "15311044",
+                "username": "FitBottomedGirl",
+                "name": "Fit Bottomed Girls",
+                "follower_count": 73098,
+                "following_count": 4098,
+                "favourites_count": 8012,
+                "is_private": false,
+                "is_verified": false,
+                "is_blue_verified": false,
+                "location": "",
+                "profile_pic_url": "https://pbs.twimg.com/profile_images/998273766714044416/ww4OuMRe_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/15311044/1496404465",
+                "description": "You can't hate yourself healthy. Check out all of our free workouts here: https://t.co/4MdxPJAkPJ 💪🏿💪🏽💪🏻",
+                "external_url": "https://t.co/spIANkmunE",
+                "number_of_tweets": 82828,
+                "bot": false,
+                "timestamp": 1215109350,
+                "has_nft_avatar": false,
+                "category": null,
+                "default_profile": false,
+                "default_profile_image": false,
+                "listed_count": null,
+                "verified_type": null
+            },
+            "language": "en",
+            "favorite_count": 0,
+            "retweet_count": 0,
+            "reply_count": 0,
+            "quote_count": 0,
+            "retweet": false,
+            "views": 1243,
+            "timestamp": 1731775242,
+            "video_view_count": null,
+            "in_reply_to_status_id": null,
+            "quoted_status_id": null,
+            "binding_values": null,
+            "expanded_url": "https://miles-to-go-athletics.ck.page/ba47dc6adf",
+            "retweet_tweet_id": null,
+            "extended_entities": {
+                "media": [
+                    {
+                        "additional_media_info": {
+                            "monetizable": false
+                        },
+                        "display_url": "pic.x.com/2tYlfhWkfZ",
+                        "expanded_url": "https://x.com/FitBottomedGirl/status/1857826138535399675/video/1",
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "id_str": "1857825964438192128",
+                        "indices": [
+                            273,
+                            296
+                        ],
+                        "media_key": "7_1857825964438192128",
+                        "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1857825964438192128/pu/img/DMZNfCcdD-CJVwEg.jpg",
+                        "original_info": {
+                            "width": 760,
+                            "height": 1350,
+                            "focus_rects": []
+                        },
+                        "sizes": {
+                            "large": {
+                                "w": 760,
+                                "h": 1350
+                            }
+                        },
+                        "type": "video",
+                        "url": "https://t.co/2tYlfhWkfZ",
+                        "video_info": {
+                            "aspect_ratio": [
+                                76,
+                                135
+                            ],
+                            "duration_millis": 5500,
+                            "variants": [
+                                {
+                                    "url": "https://video.twimg.com/ext_tw_video/1857825964438192128/pu/pl/5F4OnqZ3OTemR2Hn.m3u8?tag=12",
+                                    "content_type": "application/x-mpegURL"
+                                },
+                                {
+                                    "url": "https://video.twimg.com/ext_tw_video/1857825964438192128/pu/vid/avc1/320x568/1rF_9PB48-BjUgx8.mp4?tag=12",
+                                    "content_type": "video/mp4",
+                                    "bitrate": 632000
+                                },
+                                {
+                                    "url": "https://video.twimg.com/ext_tw_video/1857825964438192128/pu/vid/avc1/480x852/8fhizCVLKsmY5rgy.mp4?tag=12",
+                                    "content_type": "video/mp4",
+                                    "bitrate": 950000
+                                },
+                                {
+                                    "url": "https://video.twimg.com/ext_tw_video/1857825964438192128/pu/vid/avc1/720x1278/3G0nsx8U-sx9GJfk.mp4?tag=12",
+                                    "content_type": "video/mp4",
+                                    "bitrate": 2176000
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "conversation_id": "1857826138535399675",
+            "retweet_status": null,
+            "quoted_status": null,
+            "bookmark_count": 0,
+            "source": null,
+            "community_note": null
+        },
+        {
+            "tweet_id": "1857497722774843737",
+            "creation_date": "Fri Nov 15 18:55:42 +0000 2024",
+            "text": "Scared of picking up the 25lb dumbbells? Don't be.⁠\n⁠\nMany women are underestimating their strength. We're picking up kids, grandkids, heavy packages, carrying full laundry baskets &amp; lugging the vacuum up the stairs.⁠ You're stronger than you think!⁠\n\nhttps://t.co/6kxJD83mwJ https://t.co/fTKnr1Yxa7",
+            "media_url": null,
+            "video_url": [
+                {
+                    "url": "https://video.twimg.com/ext_tw_video/1857497560543363072/pu/vid/avc1/320x568/zyJh4_f-BTPtl-0z.mp4?tag=12",
+                    "bitrate": 632000,
+                    "content_type": "video/mp4"
+                },
+                {
+                    "url": "https://video.twimg.com/ext_tw_video/1857497560543363072/pu/vid/avc1/480x852/BqP5Q7YCUOvwf5C3.mp4?tag=12",
+                    "bitrate": 950000,
+                    "content_type": "video/mp4"
+                },
+                {
+                    "url": "https://video.twimg.com/ext_tw_video/1857497560543363072/pu/vid/avc1/720x1280/JQQqUriSpTpCiedy.mp4?tag=12",
+                    "bitrate": 2176000,
+                    "content_type": "video/mp4"
+                }
+            ],
+            "user": {
+                "creation_date": "Thu Jul 03 18:22:30 +0000 2008",
+                "user_id": "15311044",
+                "username": "FitBottomedGirl",
+                "name": "Fit Bottomed Girls",
+                "follower_count": 73098,
+                "following_count": 4098,
+                "favourites_count": 8012,
+                "is_private": false,
+                "is_verified": false,
+                "is_blue_verified": false,
+                "location": "",
+                "profile_pic_url": "https://pbs.twimg.com/profile_images/998273766714044416/ww4OuMRe_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/15311044/1496404465",
+                "description": "You can't hate yourself healthy. Check out all of our free workouts here: https://t.co/4MdxPJAkPJ 💪🏿💪🏽💪🏻",
+                "external_url": "https://t.co/spIANkmunE",
+                "number_of_tweets": 82828,
+                "bot": false,
+                "timestamp": 1215109350,
+                "has_nft_avatar": false,
+                "category": null,
+                "default_profile": false,
+                "default_profile_image": false,
+                "listed_count": null,
+                "verified_type": null
+            },
+            "language": "en",
+            "favorite_count": 1,
+            "retweet_count": 0,
+            "reply_count": 0,
+            "quote_count": 0,
+            "retweet": false,
+            "views": 468,
+            "timestamp": 1731696942,
+            "video_view_count": null,
+            "in_reply_to_status_id": null,
+            "quoted_status_id": null,
+            "binding_values": null,
+            "expanded_url": "https://fitbottomedgirls.com/2024/11/podcast-episode-145-strength-training-for-less-pain-with-trisha-durham/",
+            "retweet_tweet_id": null,
+            "extended_entities": {
+                "media": [
+                    {
+                        "additional_media_info": {
+                            "monetizable": false
+                        },
+                        "display_url": "pic.x.com/fTKnr1Yxa7",
+                        "expanded_url": "https://x.com/FitBottomedGirl/status/1857497722774843737/video/1",
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "id_str": "1857497560543363072",
+                        "indices": [
+                            280,
+                            303
+                        ],
+                        "media_key": "7_1857497560543363072",
+                        "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1857497560543363072/pu/img/gyr9QNI1FN_JkWK9.jpg",
+                        "original_info": {
+                            "width": 1080,
+                            "height": 1920,
+                            "focus_rects": []
+                        },
+                        "sizes": {
+                            "large": {
+                                "w": 1080,
+                                "h": 1920
+                            }
+                        },
+                        "type": "video",
+                        "url": "https://t.co/fTKnr1Yxa7",
+                        "video_info": {
+                            "aspect_ratio": [
+                                9,
+                                16
+                            ],
+                            "duration_millis": 66425,
+                            "variants": [
+                                {
+                                    "url": "https://video.twimg.com/ext_tw_video/1857497560543363072/pu/pl/Cdt1WqxSrwY99uz6.m3u8?tag=12",
+                                    "content_type": "application/x-mpegURL"
+                                },
+                                {
+                                    "url": "https://video.twimg.com/ext_tw_video/1857497560543363072/pu/vid/avc1/320x568/zyJh4_f-BTPtl-0z.mp4?tag=12",
+                                    "content_type": "video/mp4",
+                                    "bitrate": 632000
+                                },
+                                {
+                                    "url": "https://video.twimg.com/ext_tw_video/1857497560543363072/pu/vid/avc1/480x852/BqP5Q7YCUOvwf5C3.mp4?tag=12",
+                                    "content_type": "video/mp4",
+                                    "bitrate": 950000
+                                },
+                                {
+                                    "url": "https://video.twimg.com/ext_tw_video/1857497560543363072/pu/vid/avc1/720x1280/JQQqUriSpTpCiedy.mp4?tag=12",
+                                    "content_type": "video/mp4",
+                                    "bitrate": 2176000
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "conversation_id": "1857497722774843737",
+            "retweet_status": null,
+            "quoted_status": null,
+            "bookmark_count": 0,
+            "source": null,
+            "community_note": null
+        },
+        {
+            "tweet_id": "1857198260244357294",
+            "creation_date": "Thu Nov 14 23:05:44 +0000 2024",
+            "text": "Wanna move better? Move MORE.⁠\n⁠\nWe love this little nugget from this week's guest on the Fit Bottomed Girls Podcast, yoga teacher and personal trainer, Trisha Durham.\n\nhttps://t.co/wAC3TWadAx https://t.co/uI8pjFsKFB",
+            "media_url": [
+                "https://pbs.twimg.com/media/GcYX1ydWAAIJXcB.jpg"
+            ],
+            "video_url": null,
+            "user": {
+                "creation_date": "Thu Jul 03 18:22:30 +0000 2008",
+                "user_id": "15311044",
+                "username": "FitBottomedGirl",
+                "name": "Fit Bottomed Girls",
+                "follower_count": 73098,
+                "following_count": 4098,
+                "favourites_count": 8012,
+                "is_private": false,
+                "is_verified": false,
+                "is_blue_verified": false,
+                "location": "",
+                "profile_pic_url": "https://pbs.twimg.com/profile_images/998273766714044416/ww4OuMRe_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/15311044/1496404465",
+                "description": "You can't hate yourself healthy. Check out all of our free workouts here: https://t.co/4MdxPJAkPJ 💪🏿💪🏽💪🏻",
+                "external_url": "https://t.co/spIANkmunE",
+                "number_of_tweets": 82828,
+                "bot": false,
+                "timestamp": 1215109350,
+                "has_nft_avatar": false,
+                "category": null,
+                "default_profile": false,
+                "default_profile_image": false,
+                "listed_count": null,
+                "verified_type": null
+            },
+            "language": "en",
+            "favorite_count": 0,
+            "retweet_count": 0,
+            "reply_count": 0,
+            "quote_count": 0,
+            "retweet": false,
+            "views": 459,
+            "timestamp": 1731625544,
+            "video_view_count": null,
+            "in_reply_to_status_id": null,
+            "quoted_status_id": null,
+            "binding_values": null,
+            "expanded_url": "https://app.later.com/8HPEX/schedule/calendar/post/copy/multi/new?isCopiedPost=true&scheduledTime=1731625500&targetDate=1731214800000",
+            "retweet_tweet_id": null,
+            "extended_entities": {
+                "media": [
+                    {
+                        "display_url": "pic.x.com/uI8pjFsKFB",
+                        "expanded_url": "https://x.com/FitBottomedGirl/status/1857198260244357294/photo/1",
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "features": {
+                            "large": {
+                                "faces": [
+                                    {
+                                        "x": 175,
+                                        "y": 452,
+                                        "h": 87,
+                                        "w": 87
+                                    },
+                                    {
+                                        "x": 825,
+                                        "y": 449,
+                                        "h": 93,
+                                        "w": 93
+                                    },
+                                    {
+                                        "x": 478,
+                                        "y": 470,
+                                        "h": 84,
+                                        "w": 84
+                                    },
+                                    {
+                                        "x": 922,
+                                        "y": 68,
+                                        "h": 138,
+                                        "w": 138
+                                    },
+                                    {
+                                        "x": 827,
+                                        "y": 60,
+                                        "h": 155,
+                                        "w": 155
+                                    }
+                                ]
+                            }
+                        },
+                        "id_str": "1857198109182263298",
+                        "indices": [
+                            193,
+                            216
+                        ],
+                        "media_key": "3_1857198109182263298",
+                        "media_url_https": "https://pbs.twimg.com/media/GcYX1ydWAAIJXcB.jpg",
+                        "original_info": {
+                            "width": 1080,
+                            "height": 1350,
+                            "focus_rects": [
+                                {
+                                    "x": 0,
+                                    "y": 609,
+                                    "w": 1080,
+                                    "h": 605
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 270,
+                                    "w": 1080,
+                                    "h": 1080
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 119,
+                                    "w": 1080,
+                                    "h": 1231
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 675,
+                                    "h": 1350
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1080,
+                                    "h": 1350
+                                }
+                            ]
+                        },
+                        "sizes": {
+                            "large": {
+                                "w": 1080,
+                                "h": 1350
+                            }
+                        },
+                        "type": "photo",
+                        "url": "https://t.co/uI8pjFsKFB"
+                    }
+                ]
+            },
+            "conversation_id": "1857198260244357294",
+            "retweet_status": null,
+            "quoted_status": null,
+            "bookmark_count": 0,
+            "source": null,
+            "community_note": null
+        },
+        {
+            "tweet_id": "1857048157097525543",
+            "creation_date": "Thu Nov 14 13:09:17 +0000 2024",
+            "text": "Need another reason to start taking strength training seriously? Two words: LESS PAIN.⁠\n⁠\nThis week’s podcast is with Trisha Durham who started lifting a barbell in her 40s and will inspire you to pick up those heavy weights! ⁠\n\nhttps://t.co/6kxJD83mwJ https://t.co/wJlgIAWyD5",
+            "media_url": null,
+            "video_url": [
+                {
+                    "url": "https://video.twimg.com/ext_tw_video/1857047962402099200/pu/vid/avc1/320x568/okuO-UIQzXofwPki.mp4?tag=12",
+                    "bitrate": 632000,
+                    "content_type": "video/mp4"
+                },
+                {
+                    "url": "https://video.twimg.com/ext_tw_video/1857047962402099200/pu/vid/avc1/480x852/7jarno4I1PeMAtBn.mp4?tag=12",
+                    "bitrate": 950000,
+                    "content_type": "video/mp4"
+                },
+                {
+                    "url": "https://video.twimg.com/ext_tw_video/1857047962402099200/pu/vid/avc1/720x1280/31N9IFYHbTLsxfEJ.mp4?tag=12",
+                    "bitrate": 2176000,
+                    "content_type": "video/mp4"
+                }
+            ],
+            "user": {
+                "creation_date": "Thu Jul 03 18:22:30 +0000 2008",
+                "user_id": "15311044",
+                "username": "FitBottomedGirl",
+                "name": "Fit Bottomed Girls",
+                "follower_count": 73098,
+                "following_count": 4098,
+                "favourites_count": 8012,
+                "is_private": false,
+                "is_verified": false,
+                "is_blue_verified": false,
+                "location": "",
+                "profile_pic_url": "https://pbs.twimg.com/profile_images/998273766714044416/ww4OuMRe_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/15311044/1496404465",
+                "description": "You can't hate yourself healthy. Check out all of our free workouts here: https://t.co/4MdxPJAkPJ 💪🏿💪🏽💪🏻",
+                "external_url": "https://t.co/spIANkmunE",
+                "number_of_tweets": 82828,
+                "bot": false,
+                "timestamp": 1215109350,
+                "has_nft_avatar": false,
+                "category": null,
+                "default_profile": false,
+                "default_profile_image": false,
+                "listed_count": null,
+                "verified_type": null
+            },
+            "language": "en",
+            "favorite_count": 0,
+            "retweet_count": 0,
+            "reply_count": 0,
+            "quote_count": 0,
+            "retweet": false,
+            "views": 464,
+            "timestamp": 1731589757,
+            "video_view_count": null,
+            "in_reply_to_status_id": null,
+            "quoted_status_id": null,
+            "binding_values": null,
+            "expanded_url": "https://fitbottomedgirls.com/2024/11/podcast-episode-145-strength-training-for-less-pain-with-trisha-durham/",
+            "retweet_tweet_id": null,
+            "extended_entities": {
+                "media": [
+                    {
+                        "additional_media_info": {
+                            "monetizable": false
+                        },
+                        "display_url": "pic.x.com/wJlgIAWyD5",
+                        "expanded_url": "https://x.com/FitBottomedGirl/status/1857048157097525543/video/1",
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "id_str": "1857047962402099200",
+                        "indices": [
+                            253,
+                            276
+                        ],
+                        "media_key": "7_1857047962402099200",
+                        "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1857047962402099200/pu/img/zU3XIts2PrvJ6JpO.jpg",
+                        "original_info": {
+                            "width": 1080,
+                            "height": 1920,
+                            "focus_rects": []
+                        },
+                        "sizes": {
+                            "large": {
+                                "w": 1080,
+                                "h": 1920
+                            }
+                        },
+                        "type": "video",
+                        "url": "https://t.co/wJlgIAWyD5",
+                        "video_info": {
+                            "aspect_ratio": [
+                                9,
+                                16
+                            ],
+                            "duration_millis": 95045,
+                            "variants": [
+                                {
+                                    "url": "https://video.twimg.com/ext_tw_video/1857047962402099200/pu/pl/_6cas69XqrLPTMdw.m3u8?tag=12",
+                                    "content_type": "application/x-mpegURL"
+                                },
+                                {
+                                    "url": "https://video.twimg.com/ext_tw_video/1857047962402099200/pu/vid/avc1/320x568/okuO-UIQzXofwPki.mp4?tag=12",
+                                    "content_type": "video/mp4",
+                                    "bitrate": 632000
+                                },
+                                {
+                                    "url": "https://video.twimg.com/ext_tw_video/1857047962402099200/pu/vid/avc1/480x852/7jarno4I1PeMAtBn.mp4?tag=12",
+                                    "content_type": "video/mp4",
+                                    "bitrate": 950000
+                                },
+                                {
+                                    "url": "https://video.twimg.com/ext_tw_video/1857047962402099200/pu/vid/avc1/720x1280/31N9IFYHbTLsxfEJ.mp4?tag=12",
+                                    "content_type": "video/mp4",
+                                    "bitrate": 2176000
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "conversation_id": "1857048157097525543",
+            "retweet_status": null,
+            "quoted_status": null,
+            "bookmark_count": 0,
+            "source": null,
+            "community_note": null
+        },
+        {
+            "tweet_id": "1856780470408597806",
+            "creation_date": "Wed Nov 13 19:25:36 +0000 2024",
+            "text": "Lower your expectations, not your goals. 💥 Embracing 5-minute practices and moving anywhere &amp; everywhere was the game-changer. ⁠\n⁠\nCheck out Naomi’s recent blog post for mom-friendly movement tips that keeps it realistic AND effective. ⁠\n⁠\nhttps://t.co/NFzITZXgjF https://t.co/ycacdnm2Rz",
+            "media_url": [
+                "https://pbs.twimg.com/media/GcSb3gYWsAAUqQc.jpg"
+            ],
+            "video_url": null,
+            "user": {
+                "creation_date": "Thu Jul 03 18:22:30 +0000 2008",
+                "user_id": "15311044",
+                "username": "FitBottomedGirl",
+                "name": "Fit Bottomed Girls",
+                "follower_count": 73098,
+                "following_count": 4098,
+                "favourites_count": 8012,
+                "is_private": false,
+                "is_verified": false,
+                "is_blue_verified": false,
+                "location": "",
+                "profile_pic_url": "https://pbs.twimg.com/profile_images/998273766714044416/ww4OuMRe_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/15311044/1496404465",
+                "description": "You can't hate yourself healthy. Check out all of our free workouts here: https://t.co/4MdxPJAkPJ 💪🏿💪🏽💪🏻",
+                "external_url": "https://t.co/spIANkmunE",
+                "number_of_tweets": 82828,
+                "bot": false,
+                "timestamp": 1215109350,
+                "has_nft_avatar": false,
+                "category": null,
+                "default_profile": false,
+                "default_profile_image": false,
+                "listed_count": null,
+                "verified_type": null
+            },
+            "language": "en",
+            "favorite_count": 1,
+            "retweet_count": 0,
+            "reply_count": 0,
+            "quote_count": 0,
+            "retweet": false,
+            "views": 323,
+            "timestamp": 1731525936,
+            "video_view_count": null,
+            "in_reply_to_status_id": null,
+            "quoted_status_id": null,
+            "binding_values": null,
+            "expanded_url": "https://fitbottomedgirls.com/2024/11/5-ways-to-make-daily-movement-easier-for-moms/",
+            "retweet_tweet_id": null,
+            "extended_entities": {
+                "media": [
+                    {
+                        "display_url": "pic.x.com/ycacdnm2Rz",
+                        "expanded_url": "https://x.com/FitBottomedGirl/status/1856780470408597806/photo/1",
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "features": {
+                            "large": {
+                                "faces": [
+                                    {
+                                        "x": 785,
+                                        "y": 975,
+                                        "h": 116,
+                                        "w": 116
+                                    },
+                                    {
+                                        "x": 141,
+                                        "y": 561,
+                                        "h": 254,
+                                        "w": 254
+                                    }
+                                ]
+                            }
+                        },
+                        "id_str": "1856780324270682112",
+                        "indices": [
+                            268,
+                            291
+                        ],
+                        "media_key": "3_1856780324270682112",
+                        "media_url_https": "https://pbs.twimg.com/media/GcSb3gYWsAAUqQc.jpg",
+                        "original_info": {
+                            "width": 1080,
+                            "height": 1350,
+                            "focus_rects": [
+                                {
+                                    "x": 0,
+                                    "y": 406,
+                                    "w": 1080,
+                                    "h": 605
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 168,
+                                    "w": 1080,
+                                    "h": 1080
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 93,
+                                    "w": 1080,
+                                    "h": 1231
+                                },
+                                {
+                                    "x": 34,
+                                    "y": 0,
+                                    "w": 675,
+                                    "h": 1350
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1080,
+                                    "h": 1350
+                                }
+                            ]
+                        },
+                        "sizes": {
+                            "large": {
+                                "w": 1080,
+                                "h": 1350
+                            }
+                        },
+                        "type": "photo",
+                        "url": "https://t.co/ycacdnm2Rz"
+                    }
+                ]
+            },
+            "conversation_id": "1856780470408597806",
+            "retweet_status": null,
+            "quoted_status": null,
+            "bookmark_count": 0,
+            "source": null,
+            "community_note": null
+        },
+        {
+            "tweet_id": "1856341354533597617",
+            "creation_date": "Tue Nov 12 14:20:42 +0000 2024",
+            "text": "Imagine letting go of ‘perfect’ and letting ALL movement count. 🧘‍♀️ 5 minutes of yoga, a few kitchen dance moves, or a walk to the park—whatever fits, fits!⁠\n⁠\nCheck out Naomi’s top 5 hacks for squeezing in movement for moms on the go. ❤️ ⁠\n⁠\nhttps://t.co/NFzITZXgjF https://t.co/q6LsqGDSY3",
+            "media_url": [
+                "https://pbs.twimg.com/media/GcMMep6bYAAMjpt.jpg"
+            ],
+            "video_url": null,
+            "user": {
+                "creation_date": "Thu Jul 03 18:22:30 +0000 2008",
+                "user_id": "15311044",
+                "username": "FitBottomedGirl",
+                "name": "Fit Bottomed Girls",
+                "follower_count": 73098,
+                "following_count": 4098,
+                "favourites_count": 8012,
+                "is_private": false,
+                "is_verified": false,
+                "is_blue_verified": false,
+                "location": "",
+                "profile_pic_url": "https://pbs.twimg.com/profile_images/998273766714044416/ww4OuMRe_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/15311044/1496404465",
+                "description": "You can't hate yourself healthy. Check out all of our free workouts here: https://t.co/4MdxPJAkPJ 💪🏿💪🏽💪🏻",
+                "external_url": "https://t.co/spIANkmunE",
+                "number_of_tweets": 82828,
+                "bot": false,
+                "timestamp": 1215109350,
+                "has_nft_avatar": false,
+                "category": null,
+                "default_profile": false,
+                "default_profile_image": false,
+                "listed_count": null,
+                "verified_type": null
+            },
+            "language": "en",
+            "favorite_count": 1,
+            "retweet_count": 0,
+            "reply_count": 0,
+            "quote_count": 0,
+            "retweet": false,
+            "views": 291,
+            "timestamp": 1731421242,
+            "video_view_count": null,
+            "in_reply_to_status_id": null,
+            "quoted_status_id": null,
+            "binding_values": null,
+            "expanded_url": "https://fitbottomedgirls.com/2024/11/5-ways-to-make-daily-movement-easier-for-moms/",
+            "retweet_tweet_id": null,
+            "extended_entities": {
+                "media": [
+                    {
+                        "display_url": "pic.x.com/q6LsqGDSY3",
+                        "expanded_url": "https://x.com/FitBottomedGirl/status/1856341354533597617/photo/1",
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "features": {
+                            "large": {
+                                "faces": [
+                                    {
+                                        "x": 159,
+                                        "y": 112,
+                                        "h": 68,
+                                        "w": 68
+                                    },
+                                    {
+                                        "x": 458,
+                                        "y": 523,
+                                        "h": 123,
+                                        "w": 123
+                                    }
+                                ]
+                            }
+                        },
+                        "id_str": "1856341192193302528",
+                        "indices": [
+                            268,
+                            291
+                        ],
+                        "media_key": "3_1856341192193302528",
+                        "media_url_https": "https://pbs.twimg.com/media/GcMMep6bYAAMjpt.jpg",
+                        "original_info": {
+                            "width": 1080,
+                            "height": 1350,
+                            "focus_rects": [
+                                {
+                                    "x": 0,
+                                    "y": 541,
+                                    "w": 1080,
+                                    "h": 605
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 270,
+                                    "w": 1080,
+                                    "h": 1080
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 119,
+                                    "w": 1080,
+                                    "h": 1231
+                                },
+                                {
+                                    "x": 304,
+                                    "y": 0,
+                                    "w": 675,
+                                    "h": 1350
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1080,
+                                    "h": 1350
+                                }
+                            ]
+                        },
+                        "sizes": {
+                            "large": {
+                                "w": 1080,
+                                "h": 1350
+                            }
+                        },
+                        "type": "photo",
+                        "url": "https://t.co/q6LsqGDSY3"
+                    }
+                ]
+            },
+            "conversation_id": "1856341354533597617",
+            "retweet_status": null,
+            "quoted_status": null,
+            "bookmark_count": 0,
+            "source": null,
+            "community_note": null
+        },
+        {
+            "tweet_id": "1856065772663329032",
+            "creation_date": "Mon Nov 11 20:05:38 +0000 2024",
+            "text": "🤯 Half-assing some things (strategically!) can actually get you *further* than always aiming for perfect. 💪 ⁠\n⁠\nIf you’re tired of spinning your wheels and not seeing results, this mindset shift is exactly what you need. ⁠Read the blog here!\n⁠\nhttps://t.co/UQCUWZY5Dh https://t.co/wktySyXurr",
+            "media_url": [
+                "https://pbs.twimg.com/media/GcIR2cwXMAAZIwV.jpg"
+            ],
+            "video_url": null,
+            "user": {
+                "creation_date": "Thu Jul 03 18:22:30 +0000 2008",
+                "user_id": "15311044",
+                "username": "FitBottomedGirl",
+                "name": "Fit Bottomed Girls",
+                "follower_count": 73098,
+                "following_count": 4098,
+                "favourites_count": 8012,
+                "is_private": false,
+                "is_verified": false,
+                "is_blue_verified": false,
+                "location": "",
+                "profile_pic_url": "https://pbs.twimg.com/profile_images/998273766714044416/ww4OuMRe_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/15311044/1496404465",
+                "description": "You can't hate yourself healthy. Check out all of our free workouts here: https://t.co/4MdxPJAkPJ 💪🏿💪🏽💪🏻",
+                "external_url": "https://t.co/spIANkmunE",
+                "number_of_tweets": 82828,
+                "bot": false,
+                "timestamp": 1215109350,
+                "has_nft_avatar": false,
+                "category": null,
+                "default_profile": false,
+                "default_profile_image": false,
+                "listed_count": null,
+                "verified_type": null
+            },
+            "language": "en",
+            "favorite_count": 1,
+            "retweet_count": 0,
+            "reply_count": 0,
+            "quote_count": 0,
+            "retweet": false,
+            "views": 313,
+            "timestamp": 1731355538,
+            "video_view_count": null,
+            "in_reply_to_status_id": null,
+            "quoted_status_id": null,
+            "binding_values": null,
+            "expanded_url": "https://fitbottomedgirls.com/2024/10/lose-the-all-or-nothing-mindset-find-more-success/",
+            "retweet_tweet_id": null,
+            "extended_entities": {
+                "media": [
+                    {
+                        "display_url": "pic.x.com/wktySyXurr",
+                        "expanded_url": "https://x.com/FitBottomedGirl/status/1856065772663329032/photo/1",
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "features": {
+                            "large": {
+                                "faces": [
+                                    {
+                                        "x": 726,
+                                        "y": 522,
+                                        "h": 50,
+                                        "w": 50
+                                    }
+                                ]
+                            }
+                        },
+                        "id_str": "1856065623559712768",
+                        "indices": [
+                            268,
+                            291
+                        ],
+                        "media_key": "3_1856065623559712768",
+                        "media_url_https": "https://pbs.twimg.com/media/GcIR2cwXMAAZIwV.jpg",
+                        "original_info": {
+                            "width": 1080,
+                            "height": 1350,
+                            "focus_rects": [
+                                {
+                                    "x": 0,
+                                    "y": 339,
+                                    "w": 1080,
+                                    "h": 605
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 101,
+                                    "w": 1080,
+                                    "h": 1080
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 26,
+                                    "w": 1080,
+                                    "h": 1231
+                                },
+                                {
+                                    "x": 203,
+                                    "y": 0,
+                                    "w": 675,
+                                    "h": 1350
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1080,
+                                    "h": 1350
+                                }
+                            ]
+                        },
+                        "sizes": {
+                            "large": {
+                                "w": 1080,
+                                "h": 1350
+                            }
+                        },
+                        "type": "photo",
+                        "url": "https://t.co/wktySyXurr"
+                    }
+                ]
+            },
+            "conversation_id": "1856065772663329032",
+            "retweet_status": null,
+            "quoted_status": null,
+            "bookmark_count": 0,
+            "source": null,
+            "community_note": null
+        },
+        {
+            "tweet_id": "1855715960260292760",
+            "creation_date": "Sun Nov 10 20:55:37 +0000 2024",
+            "text": "Food is fuel, not the enemy! 💥 Underfueling isn’t adding worth to your life; it’s stealing your vitality and joy. It’s time to eat and THRIVE! 🔥 ⁠\n⁠\nRead the full article and find out if you’re chronically underfueled.\n\nhttps://t.co/Evbg25iS7P https://t.co/Nc73aeMN2a",
+            "media_url": [
+                "https://pbs.twimg.com/media/GcDTsnVXsAA-tlF.jpg"
+            ],
+            "video_url": null,
+            "user": {
+                "creation_date": "Thu Jul 03 18:22:30 +0000 2008",
+                "user_id": "15311044",
+                "username": "FitBottomedGirl",
+                "name": "Fit Bottomed Girls",
+                "follower_count": 73098,
+                "following_count": 4098,
+                "favourites_count": 8012,
+                "is_private": false,
+                "is_verified": false,
+                "is_blue_verified": false,
+                "location": "",
+                "profile_pic_url": "https://pbs.twimg.com/profile_images/998273766714044416/ww4OuMRe_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/15311044/1496404465",
+                "description": "You can't hate yourself healthy. Check out all of our free workouts here: https://t.co/4MdxPJAkPJ 💪🏿💪🏽💪🏻",
+                "external_url": "https://t.co/spIANkmunE",
+                "number_of_tweets": 82828,
+                "bot": false,
+                "timestamp": 1215109350,
+                "has_nft_avatar": false,
+                "category": null,
+                "default_profile": false,
+                "default_profile_image": false,
+                "listed_count": null,
+                "verified_type": null
+            },
+            "language": "en",
+            "favorite_count": 1,
+            "retweet_count": 0,
+            "reply_count": 0,
+            "quote_count": 0,
+            "retweet": false,
+            "views": 367,
+            "timestamp": 1731272137,
+            "video_view_count": null,
+            "in_reply_to_status_id": null,
+            "quoted_status_id": null,
+            "binding_values": null,
+            "expanded_url": "https://fitbottomedgirls.com/2024/10/are-you-chronically-underfueled/",
+            "retweet_tweet_id": null,
+            "extended_entities": {
+                "media": [
+                    {
+                        "display_url": "pic.x.com/Nc73aeMN2a",
+                        "expanded_url": "https://x.com/FitBottomedGirl/status/1855715960260292760/photo/1",
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "features": {
+                            "large": {
+                                "faces": [
+                                    {
+                                        "x": 36,
+                                        "y": 68,
+                                        "h": 89,
+                                        "w": 89
+                                    },
+                                    {
+                                        "x": 89,
+                                        "y": 68,
+                                        "h": 89,
+                                        "w": 89
+                                    }
+                                ]
+                            }
+                        },
+                        "id_str": "1855715809902964736",
+                        "indices": [
+                            244,
+                            267
+                        ],
+                        "media_key": "3_1855715809902964736",
+                        "media_url_https": "https://pbs.twimg.com/media/GcDTsnVXsAA-tlF.jpg",
+                        "original_info": {
+                            "width": 1080,
+                            "height": 1350,
+                            "focus_rects": [
+                                {
+                                    "x": 0,
+                                    "y": 339,
+                                    "w": 1080,
+                                    "h": 605
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 101,
+                                    "w": 1080,
+                                    "h": 1080
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 26,
+                                    "w": 1080,
+                                    "h": 1231
+                                },
+                                {
+                                    "x": 203,
+                                    "y": 0,
+                                    "w": 675,
+                                    "h": 1350
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1080,
+                                    "h": 1350
+                                }
+                            ]
+                        },
+                        "sizes": {
+                            "large": {
+                                "w": 1080,
+                                "h": 1350
+                            }
+                        },
+                        "type": "photo",
+                        "url": "https://t.co/Nc73aeMN2a"
+                    }
+                ]
+            },
+            "conversation_id": "1855715960260292760",
+            "retweet_status": null,
+            "quoted_status": null,
+            "bookmark_count": 1,
+            "source": null,
+            "community_note": null
+        },
+        {
+            "tweet_id": "1855264320852049928",
+            "creation_date": "Sat Nov 09 15:00:57 +0000 2024",
+            "text": "\"Don't just treat the symptom, fix the problem! 🙅‍♀️ Stretching feels good, but if you want real wrist pain relief, you’ve got to strengthen. 💥⁠\n⁠\nDive into @karinweinstein’s 10-minute wrist routine that will change the game for your wrists — \n\nhttps://t.co/8IknVdxDly https://t.co/GCuJ0140SH",
+            "media_url": [
+                "https://pbs.twimg.com/media/Gb847m-XQAAS86B.jpg"
+            ],
+            "video_url": null,
+            "user": {
+                "creation_date": "Thu Jul 03 18:22:30 +0000 2008",
+                "user_id": "15311044",
+                "username": "FitBottomedGirl",
+                "name": "Fit Bottomed Girls",
+                "follower_count": 73098,
+                "following_count": 4098,
+                "favourites_count": 8012,
+                "is_private": false,
+                "is_verified": false,
+                "is_blue_verified": false,
+                "location": "",
+                "profile_pic_url": "https://pbs.twimg.com/profile_images/998273766714044416/ww4OuMRe_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/15311044/1496404465",
+                "description": "You can't hate yourself healthy. Check out all of our free workouts here: https://t.co/4MdxPJAkPJ 💪🏿💪🏽💪🏻",
+                "external_url": "https://t.co/spIANkmunE",
+                "number_of_tweets": 82828,
+                "bot": false,
+                "timestamp": 1215109350,
+                "has_nft_avatar": false,
+                "category": null,
+                "default_profile": false,
+                "default_profile_image": false,
+                "listed_count": null,
+                "verified_type": null
+            },
+            "language": "en",
+            "favorite_count": 0,
+            "retweet_count": 0,
+            "reply_count": 0,
+            "quote_count": 0,
+            "retweet": false,
+            "views": 267,
+            "timestamp": 1731164457,
+            "video_view_count": null,
+            "in_reply_to_status_id": null,
+            "quoted_status_id": null,
+            "binding_values": null,
+            "expanded_url": "https://fitbottomedgirls.com/2024/10/5-strengthening-exercises-for-wrist-pain/",
+            "retweet_tweet_id": null,
+            "extended_entities": {
+                "media": [
+                    {
+                        "display_url": "pic.x.com/GCuJ0140SH",
+                        "expanded_url": "https://x.com/FitBottomedGirl/status/1855264320852049928/photo/1",
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "features": {
+                            "large": {
+                                "faces": [
+                                    {
+                                        "x": 251,
+                                        "y": 860,
+                                        "h": 192,
+                                        "w": 192
+                                    }
+                                ]
+                            }
+                        },
+                        "id_str": "1855264168225488896",
+                        "indices": [
+                            269,
+                            292
+                        ],
+                        "media_key": "3_1855264168225488896",
+                        "media_url_https": "https://pbs.twimg.com/media/Gb847m-XQAAS86B.jpg",
+                        "original_info": {
+                            "width": 1080,
+                            "height": 1350,
+                            "focus_rects": [
+                                {
+                                    "x": 0,
+                                    "y": 339,
+                                    "w": 1080,
+                                    "h": 605
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 101,
+                                    "w": 1080,
+                                    "h": 1080
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 26,
+                                    "w": 1080,
+                                    "h": 1231
+                                },
+                                {
+                                    "x": 304,
+                                    "y": 0,
+                                    "w": 675,
+                                    "h": 1350
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1080,
+                                    "h": 1350
+                                }
+                            ]
+                        },
+                        "sizes": {
+                            "large": {
+                                "w": 1080,
+                                "h": 1350
+                            }
+                        },
+                        "type": "photo",
+                        "url": "https://t.co/GCuJ0140SH"
+                    }
+                ]
+            },
+            "conversation_id": "1855264320852049928",
+            "retweet_status": null,
+            "quoted_status": null,
+            "bookmark_count": 0,
+            "source": null,
+            "community_note": null
+        },
+        {
+            "tweet_id": "1855008654224687335",
+            "creation_date": "Fri Nov 08 22:05:02 +0000 2024",
+            "text": "Fads come and go. The basics are forever.\n\nFor fitness results that stand the test of time, focus on the boulders and forget the pebbles.\n\nListen to the full episode “Fitness for the Long Haul” with Coach Mac and FBG Alison.\n\nhttps://t.co/e8LROTyUI1 https://t.co/j5xX3kuf8Z",
+            "media_url": null,
+            "video_url": [
+                {
+                    "url": "https://video.twimg.com/ext_tw_video/1855008467259445248/pu/vid/avc1/320x568/l6G0Io3Y08MqfsNC.mp4?tag=12",
+                    "bitrate": 632000,
+                    "content_type": "video/mp4"
+                },
+                {
+                    "url": "https://video.twimg.com/ext_tw_video/1855008467259445248/pu/vid/avc1/480x852/Pc0wGc_jMx0HMpBD.mp4?tag=12",
+                    "bitrate": 950000,
+                    "content_type": "video/mp4"
+                },
+                {
+                    "url": "https://video.twimg.com/ext_tw_video/1855008467259445248/pu/vid/avc1/720x1280/L7octam8OTOUkS4C.mp4?tag=12",
+                    "bitrate": 2176000,
+                    "content_type": "video/mp4"
+                }
+            ],
+            "user": {
+                "creation_date": "Thu Jul 03 18:22:30 +0000 2008",
+                "user_id": "15311044",
+                "username": "FitBottomedGirl",
+                "name": "Fit Bottomed Girls",
+                "follower_count": 73098,
+                "following_count": 4098,
+                "favourites_count": 8012,
+                "is_private": false,
+                "is_verified": false,
+                "is_blue_verified": false,
+                "location": "",
+                "profile_pic_url": "https://pbs.twimg.com/profile_images/998273766714044416/ww4OuMRe_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/15311044/1496404465",
+                "description": "You can't hate yourself healthy. Check out all of our free workouts here: https://t.co/4MdxPJAkPJ 💪🏿💪🏽💪🏻",
+                "external_url": "https://t.co/spIANkmunE",
+                "number_of_tweets": 82828,
+                "bot": false,
+                "timestamp": 1215109350,
+                "has_nft_avatar": false,
+                "category": null,
+                "default_profile": false,
+                "default_profile_image": false,
+                "listed_count": null,
+                "verified_type": null
+            },
+            "language": "en",
+            "favorite_count": 1,
+            "retweet_count": 1,
+            "reply_count": 1,
+            "quote_count": 0,
+            "retweet": false,
+            "views": 340,
+            "timestamp": 1731103502,
+            "video_view_count": null,
+            "in_reply_to_status_id": null,
+            "quoted_status_id": null,
+            "binding_values": null,
+            "expanded_url": "https://fitbottomedgirls.com/2024/11/podcast-episode-144-fitness-for-the-long-haul-with-mackenzie-griffith/",
+            "retweet_tweet_id": null,
+            "extended_entities": {
+                "media": [
+                    {
+                        "additional_media_info": {
+                            "monetizable": false
+                        },
+                        "display_url": "pic.x.com/j5xX3kuf8Z",
+                        "expanded_url": "https://x.com/FitBottomedGirl/status/1855008654224687335/video/1",
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "id_str": "1855008467259445248",
+                        "indices": [
+                            250,
+                            273
+                        ],
+                        "media_key": "7_1855008467259445248",
+                        "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1855008467259445248/pu/img/S37bvsLPv7u2mY3x.jpg",
+                        "original_info": {
+                            "width": 1080,
+                            "height": 1920,
+                            "focus_rects": []
+                        },
+                        "sizes": {
+                            "large": {
+                                "w": 1080,
+                                "h": 1920
+                            }
+                        },
+                        "type": "video",
+                        "url": "https://t.co/j5xX3kuf8Z",
+                        "video_info": {
+                            "aspect_ratio": [
+                                9,
+                                16
+                            ],
+                            "duration_millis": 82827,
+                            "variants": [
+                                {
+                                    "url": "https://video.twimg.com/ext_tw_video/1855008467259445248/pu/pl/Fxd0Daw6wOAUQGJV.m3u8?tag=12",
+                                    "content_type": "application/x-mpegURL"
+                                },
+                                {
+                                    "url": "https://video.twimg.com/ext_tw_video/1855008467259445248/pu/vid/avc1/320x568/l6G0Io3Y08MqfsNC.mp4?tag=12",
+                                    "content_type": "video/mp4",
+                                    "bitrate": 632000
+                                },
+                                {
+                                    "url": "https://video.twimg.com/ext_tw_video/1855008467259445248/pu/vid/avc1/480x852/Pc0wGc_jMx0HMpBD.mp4?tag=12",
+                                    "content_type": "video/mp4",
+                                    "bitrate": 950000
+                                },
+                                {
+                                    "url": "https://video.twimg.com/ext_tw_video/1855008467259445248/pu/vid/avc1/720x1280/L7octam8OTOUkS4C.mp4?tag=12",
+                                    "content_type": "video/mp4",
+                                    "bitrate": 2176000
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "conversation_id": "1855008654224687335",
+            "retweet_status": null,
+            "quoted_status": null,
+            "bookmark_count": 0,
+            "source": null,
+            "community_note": null
+        },
+        {
+            "tweet_id": "1854661516810768734",
+            "creation_date": "Thu Nov 07 23:05:38 +0000 2024",
+            "text": "Ever thought about hiring a fitness coach? If so, just know that she isn't there to scream \"one more rep\" at you or tell you \"no excuses.\"⁠\n⁠\nHer job is to make fitness fit nicely into your life so it's sustainable for you even when life gets busy.⁠\n⁠\nhttps://t.co/e8LROTyUI1 https://t.co/wgJWenyQlt",
+            "media_url": [
+                "https://pbs.twimg.com/media/Gb0UrpiXoAIJvmm.jpg"
+            ],
+            "video_url": null,
+            "user": {
+                "creation_date": "Thu Jul 03 18:22:30 +0000 2008",
+                "user_id": "15311044",
+                "username": "FitBottomedGirl",
+                "name": "Fit Bottomed Girls",
+                "follower_count": 73098,
+                "following_count": 4098,
+                "favourites_count": 8012,
+                "is_private": false,
+                "is_verified": false,
+                "is_blue_verified": false,
+                "location": "",
+                "profile_pic_url": "https://pbs.twimg.com/profile_images/998273766714044416/ww4OuMRe_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/15311044/1496404465",
+                "description": "You can't hate yourself healthy. Check out all of our free workouts here: https://t.co/4MdxPJAkPJ 💪🏿💪🏽💪🏻",
+                "external_url": "https://t.co/spIANkmunE",
+                "number_of_tweets": 82828,
+                "bot": false,
+                "timestamp": 1215109350,
+                "has_nft_avatar": false,
+                "category": null,
+                "default_profile": false,
+                "default_profile_image": false,
+                "listed_count": null,
+                "verified_type": null
+            },
+            "language": "en",
+            "favorite_count": 0,
+            "retweet_count": 0,
+            "reply_count": 0,
+            "quote_count": 0,
+            "retweet": false,
+            "views": 324,
+            "timestamp": 1731020738,
+            "video_view_count": null,
+            "in_reply_to_status_id": null,
+            "quoted_status_id": null,
+            "binding_values": null,
+            "expanded_url": "https://fitbottomedgirls.com/2024/11/podcast-episode-144-fitness-for-the-long-haul-with-mackenzie-griffith/",
+            "retweet_tweet_id": null,
+            "extended_entities": {
+                "media": [
+                    {
+                        "display_url": "pic.x.com/wgJWenyQlt",
+                        "expanded_url": "https://x.com/FitBottomedGirl/status/1854661516810768734/photo/1",
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "features": {
+                            "large": {
+                                "faces": [
+                                    {
+                                        "x": 151,
+                                        "y": 168,
+                                        "h": 203,
+                                        "w": 203
+                                    },
+                                    {
+                                        "x": 129,
+                                        "y": 825,
+                                        "h": 168,
+                                        "w": 168
+                                    }
+                                ]
+                            }
+                        },
+                        "id_str": "1854661361663451138",
+                        "indices": [
+                            276,
+                            299
+                        ],
+                        "media_key": "3_1854661361663451138",
+                        "media_url_https": "https://pbs.twimg.com/media/Gb0UrpiXoAIJvmm.jpg",
+                        "original_info": {
+                            "width": 1080,
+                            "height": 1350,
+                            "focus_rects": [
+                                {
+                                    "x": 0,
+                                    "y": 1,
+                                    "w": 1080,
+                                    "h": 605
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1080,
+                                    "h": 1080
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1080,
+                                    "h": 1231
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 675,
+                                    "h": 1350
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1080,
+                                    "h": 1350
+                                }
+                            ]
+                        },
+                        "sizes": {
+                            "large": {
+                                "w": 1080,
+                                "h": 1350
+                            }
+                        },
+                        "type": "photo",
+                        "url": "https://t.co/wgJWenyQlt"
+                    }
+                ]
+            },
+            "conversation_id": "1854661516810768734",
+            "retweet_status": null,
+            "quoted_status": null,
+            "bookmark_count": 0,
+            "source": null,
+            "community_note": null
+        },
+        {
+            "tweet_id": "1854505512844284371",
+            "creation_date": "Thu Nov 07 12:45:43 +0000 2024",
+            "text": "Feel like fitness is something you never stick to long-term?⁠\n⁠\nIf so, this week's podcast episode is for you. ⁠\n⁠\nWe talk to Coach Mac about what works and what doesn't when it comes to creating sustainable fitness.⁠\n⁠\nhttps://t.co/e8LROTyUI1 https://t.co/7KLLQBdCf6",
+            "media_url": null,
+            "video_url": [
+                {
+                    "url": "https://video.twimg.com/ext_tw_video/1854505350575116291/pu/vid/avc1/320x568/rMJD3aU2sQE02E2b.mp4?tag=12",
+                    "bitrate": 632000,
+                    "content_type": "video/mp4"
+                },
+                {
+                    "url": "https://video.twimg.com/ext_tw_video/1854505350575116291/pu/vid/avc1/480x852/7bT899iD2wvh7Dh3.mp4?tag=12",
+                    "bitrate": 950000,
+                    "content_type": "video/mp4"
+                },
+                {
+                    "url": "https://video.twimg.com/ext_tw_video/1854505350575116291/pu/vid/avc1/720x1280/UWl9z9xT76PWiAMl.mp4?tag=12",
+                    "bitrate": 2176000,
+                    "content_type": "video/mp4"
+                }
+            ],
+            "user": {
+                "creation_date": "Thu Jul 03 18:22:30 +0000 2008",
+                "user_id": "15311044",
+                "username": "FitBottomedGirl",
+                "name": "Fit Bottomed Girls",
+                "follower_count": 73098,
+                "following_count": 4098,
+                "favourites_count": 8012,
+                "is_private": false,
+                "is_verified": false,
+                "is_blue_verified": false,
+                "location": "",
+                "profile_pic_url": "https://pbs.twimg.com/profile_images/998273766714044416/ww4OuMRe_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/15311044/1496404465",
+                "description": "You can't hate yourself healthy. Check out all of our free workouts here: https://t.co/4MdxPJAkPJ 💪🏿💪🏽💪🏻",
+                "external_url": "https://t.co/spIANkmunE",
+                "number_of_tweets": 82828,
+                "bot": false,
+                "timestamp": 1215109350,
+                "has_nft_avatar": false,
+                "category": null,
+                "default_profile": false,
+                "default_profile_image": false,
+                "listed_count": null,
+                "verified_type": null
+            },
+            "language": "en",
+            "favorite_count": 0,
+            "retweet_count": 0,
+            "reply_count": 0,
+            "quote_count": 0,
+            "retweet": false,
+            "views": 311,
+            "timestamp": 1730983543,
+            "video_view_count": null,
+            "in_reply_to_status_id": null,
+            "quoted_status_id": null,
+            "binding_values": null,
+            "expanded_url": "https://fitbottomedgirls.com/2024/11/podcast-episode-144-fitness-for-the-long-haul-with-mackenzie-griffith/",
+            "retweet_tweet_id": null,
+            "extended_entities": {
+                "media": [
+                    {
+                        "additional_media_info": {
+                            "monetizable": false
+                        },
+                        "display_url": "pic.x.com/7KLLQBdCf6",
+                        "expanded_url": "https://x.com/FitBottomedGirl/status/1854505512844284371/video/1",
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "id_str": "1854505350575116291",
+                        "indices": [
+                            244,
+                            267
+                        ],
+                        "media_key": "7_1854505350575116291",
+                        "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1854505350575116291/pu/img/vyjtLBTd5Sm73k6j.jpg",
+                        "original_info": {
+                            "width": 1080,
+                            "height": 1920,
+                            "focus_rects": []
+                        },
+                        "sizes": {
+                            "large": {
+                                "w": 1080,
+                                "h": 1920
+                            }
+                        },
+                        "type": "video",
+                        "url": "https://t.co/7KLLQBdCf6",
+                        "video_info": {
+                            "aspect_ratio": [
+                                9,
+                                16
+                            ],
+                            "duration_millis": 94659,
+                            "variants": [
+                                {
+                                    "url": "https://video.twimg.com/ext_tw_video/1854505350575116291/pu/pl/k7J1SP0pvh5e341B.m3u8?tag=12",
+                                    "content_type": "application/x-mpegURL"
+                                },
+                                {
+                                    "url": "https://video.twimg.com/ext_tw_video/1854505350575116291/pu/vid/avc1/320x568/rMJD3aU2sQE02E2b.mp4?tag=12",
+                                    "content_type": "video/mp4",
+                                    "bitrate": 632000
+                                },
+                                {
+                                    "url": "https://video.twimg.com/ext_tw_video/1854505350575116291/pu/vid/avc1/480x852/7bT899iD2wvh7Dh3.mp4?tag=12",
+                                    "content_type": "video/mp4",
+                                    "bitrate": 950000
+                                },
+                                {
+                                    "url": "https://video.twimg.com/ext_tw_video/1854505350575116291/pu/vid/avc1/720x1280/UWl9z9xT76PWiAMl.mp4?tag=12",
+                                    "content_type": "video/mp4",
+                                    "bitrate": 2176000
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "conversation_id": "1854505512844284371",
+            "retweet_status": null,
+            "quoted_status": null,
+            "bookmark_count": 0,
+            "source": null,
+            "community_note": null
+        },
+        {
+            "tweet_id": "1854170834132258818",
+            "creation_date": "Wed Nov 06 14:35:50 +0000 2024",
+            "text": "How's your election hangover? ⁠\n⁠\nSee if this helps 🩵⁠\n⁠\nhttps://t.co/yLv4BdITdn https://t.co/VsW9hCIsk5",
+            "media_url": null,
+            "video_url": [
+                {
+                    "url": "https://video.twimg.com/ext_tw_video/1854170634428854281/pu/vid/avc1/320x568/1CC708KSxbA-u2Sr.mp4?tag=12",
+                    "bitrate": 632000,
+                    "content_type": "video/mp4"
+                },
+                {
+                    "url": "https://video.twimg.com/ext_tw_video/1854170634428854281/pu/vid/avc1/480x852/g7lg97YM292e7Xzr.mp4?tag=12",
+                    "bitrate": 950000,
+                    "content_type": "video/mp4"
+                },
+                {
+                    "url": "https://video.twimg.com/ext_tw_video/1854170634428854281/pu/vid/avc1/720x1280/kmnZWe4V6hnjB_Dg.mp4?tag=12",
+                    "bitrate": 2176000,
+                    "content_type": "video/mp4"
+                }
+            ],
+            "user": {
+                "creation_date": "Thu Jul 03 18:22:30 +0000 2008",
+                "user_id": "15311044",
+                "username": "FitBottomedGirl",
+                "name": "Fit Bottomed Girls",
+                "follower_count": 73098,
+                "following_count": 4098,
+                "favourites_count": 8012,
+                "is_private": false,
+                "is_verified": false,
+                "is_blue_verified": false,
+                "location": "",
+                "profile_pic_url": "https://pbs.twimg.com/profile_images/998273766714044416/ww4OuMRe_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/15311044/1496404465",
+                "description": "You can't hate yourself healthy. Check out all of our free workouts here: https://t.co/4MdxPJAkPJ 💪🏿💪🏽💪🏻",
+                "external_url": "https://t.co/spIANkmunE",
+                "number_of_tweets": 82828,
+                "bot": false,
+                "timestamp": 1215109350,
+                "has_nft_avatar": false,
+                "category": null,
+                "default_profile": false,
+                "default_profile_image": false,
+                "listed_count": null,
+                "verified_type": null
+            },
+            "language": "en",
+            "favorite_count": 1,
+            "retweet_count": 0,
+            "reply_count": 1,
+            "quote_count": 0,
+            "retweet": false,
+            "views": 487,
+            "timestamp": 1730903750,
+            "video_view_count": null,
+            "in_reply_to_status_id": null,
+            "quoted_status_id": null,
+            "binding_values": null,
+            "expanded_url": "https://fitbottomedgirls.com/2024/11/2-moves-for-neck-tension-pain-relief/",
+            "retweet_tweet_id": null,
+            "extended_entities": {
+                "media": [
+                    {
+                        "additional_media_info": {
+                            "monetizable": false
+                        },
+                        "display_url": "pic.x.com/VsW9hCIsk5",
+                        "expanded_url": "https://x.com/FitBottomedGirl/status/1854170834132258818/video/1",
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "id_str": "1854170634428854281",
+                        "indices": [
+                            81,
+                            104
+                        ],
+                        "media_key": "7_1854170634428854281",
+                        "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1854170634428854281/pu/img/r927NR095PgLAj4m.jpg",
+                        "original_info": {
+                            "width": 1080,
+                            "height": 1920,
+                            "focus_rects": []
+                        },
+                        "sizes": {
+                            "large": {
+                                "w": 1080,
+                                "h": 1920
+                            }
+                        },
+                        "type": "video",
+                        "url": "https://t.co/VsW9hCIsk5",
+                        "video_info": {
+                            "aspect_ratio": [
+                                9,
+                                16
+                            ],
+                            "duration_millis": 90056,
+                            "variants": [
+                                {
+                                    "url": "https://video.twimg.com/ext_tw_video/1854170634428854281/pu/pl/SxgNZ2EXSmlYg9bQ.m3u8?tag=12",
+                                    "content_type": "application/x-mpegURL"
+                                },
+                                {
+                                    "url": "https://video.twimg.com/ext_tw_video/1854170634428854281/pu/vid/avc1/320x568/1CC708KSxbA-u2Sr.mp4?tag=12",
+                                    "content_type": "video/mp4",
+                                    "bitrate": 632000
+                                },
+                                {
+                                    "url": "https://video.twimg.com/ext_tw_video/1854170634428854281/pu/vid/avc1/480x852/g7lg97YM292e7Xzr.mp4?tag=12",
+                                    "content_type": "video/mp4",
+                                    "bitrate": 950000
+                                },
+                                {
+                                    "url": "https://video.twimg.com/ext_tw_video/1854170634428854281/pu/vid/avc1/720x1280/kmnZWe4V6hnjB_Dg.mp4?tag=12",
+                                    "content_type": "video/mp4",
+                                    "bitrate": 2176000
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "conversation_id": "1854170834132258818",
+            "retweet_status": null,
+            "quoted_status": null,
+            "bookmark_count": 0,
+            "source": null,
+            "community_note": null
+        },
+        {
+            "tweet_id": "1853770664907297221",
+            "creation_date": "Tue Nov 05 12:05:42 +0000 2024",
+            "text": "It's Election Day here in the United States.⁠\n⁠\nNo matter your political views, there's one universal truth we can all agree on—we're stressed out and feeling tense.⁠\n⁠\nTry this.\n\nhttps://t.co/yLv4BdITdn https://t.co/sHxnTdZpi9",
+            "media_url": [
+                "https://pbs.twimg.com/media/Gbnqc9DW8AA65KC.jpg"
+            ],
+            "video_url": null,
+            "user": {
+                "creation_date": "Thu Jul 03 18:22:30 +0000 2008",
+                "user_id": "15311044",
+                "username": "FitBottomedGirl",
+                "name": "Fit Bottomed Girls",
+                "follower_count": 73098,
+                "following_count": 4098,
+                "favourites_count": 8012,
+                "is_private": false,
+                "is_verified": false,
+                "is_blue_verified": false,
+                "location": "",
+                "profile_pic_url": "https://pbs.twimg.com/profile_images/998273766714044416/ww4OuMRe_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/15311044/1496404465",
+                "description": "You can't hate yourself healthy. Check out all of our free workouts here: https://t.co/4MdxPJAkPJ 💪🏿💪🏽💪🏻",
+                "external_url": "https://t.co/spIANkmunE",
+                "number_of_tweets": 82828,
+                "bot": false,
+                "timestamp": 1215109350,
+                "has_nft_avatar": false,
+                "category": null,
+                "default_profile": false,
+                "default_profile_image": false,
+                "listed_count": null,
+                "verified_type": null
+            },
+            "language": "en",
+            "favorite_count": 1,
+            "retweet_count": 1,
+            "reply_count": 0,
+            "quote_count": 0,
+            "retweet": false,
+            "views": 349,
+            "timestamp": 1730808342,
+            "video_view_count": null,
+            "in_reply_to_status_id": null,
+            "quoted_status_id": null,
+            "binding_values": null,
+            "expanded_url": "https://fitbottomedgirls.com/2024/11/2-moves-for-neck-tension-pain-relief/",
+            "retweet_tweet_id": null,
+            "extended_entities": {
+                "media": [
+                    {
+                        "display_url": "pic.x.com/sHxnTdZpi9",
+                        "expanded_url": "https://x.com/FitBottomedGirl/status/1853770664907297221/photo/1",
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "features": {
+                            "large": {
+                                "faces": []
+                            }
+                        },
+                        "id_str": "1853770504785555456",
+                        "indices": [
+                            204,
+                            227
+                        ],
+                        "media_key": "3_1853770504785555456",
+                        "media_url_https": "https://pbs.twimg.com/media/Gbnqc9DW8AA65KC.jpg",
+                        "original_info": {
+                            "width": 1080,
+                            "height": 1350,
+                            "focus_rects": [
+                                {
+                                    "x": 0,
+                                    "y": 745,
+                                    "w": 1080,
+                                    "h": 605
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 270,
+                                    "w": 1080,
+                                    "h": 1080
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 119,
+                                    "w": 1080,
+                                    "h": 1231
+                                },
+                                {
+                                    "x": 169,
+                                    "y": 0,
+                                    "w": 675,
+                                    "h": 1350
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1080,
+                                    "h": 1350
+                                }
+                            ]
+                        },
+                        "sizes": {
+                            "large": {
+                                "w": 1080,
+                                "h": 1350
+                            }
+                        },
+                        "type": "photo",
+                        "url": "https://t.co/sHxnTdZpi9"
+                    }
+                ]
+            },
+            "conversation_id": "1853770664907297221",
+            "retweet_status": null,
+            "quoted_status": null,
+            "bookmark_count": 0,
+            "source": null,
+            "community_note": null
+        },
+        {
+            "tweet_id": "1853525276992385494",
+            "creation_date": "Mon Nov 04 19:50:37 +0000 2024",
+            "text": "The messiest parts of your journey are where you’re building confidence and strength.💪 Trust us, magic is on the other side. ⁠\n\nPS, don’t wanna miss a moment of FBG content? Join our email list 💌 \n\nhttps://t.co/3puUSkncyW?\n⁠\n#fitbottomedgirl https://t.co/1eUa7Nkql2",
+            "media_url": [
+                "https://pbs.twimg.com/media/GbkLSSbXMAAvboJ.jpg"
+            ],
+            "video_url": null,
+            "user": {
+                "creation_date": "Thu Jul 03 18:22:30 +0000 2008",
+                "user_id": "15311044",
+                "username": "FitBottomedGirl",
+                "name": "Fit Bottomed Girls",
+                "follower_count": 73098,
+                "following_count": 4098,
+                "favourites_count": 8012,
+                "is_private": false,
+                "is_verified": false,
+                "is_blue_verified": false,
+                "location": "",
+                "profile_pic_url": "https://pbs.twimg.com/profile_images/998273766714044416/ww4OuMRe_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/15311044/1496404465",
+                "description": "You can't hate yourself healthy. Check out all of our free workouts here: https://t.co/4MdxPJAkPJ 💪🏿💪🏽💪🏻",
+                "external_url": "https://t.co/spIANkmunE",
+                "number_of_tweets": 82828,
+                "bot": false,
+                "timestamp": 1215109350,
+                "has_nft_avatar": false,
+                "category": null,
+                "default_profile": false,
+                "default_profile_image": false,
+                "listed_count": null,
+                "verified_type": null
+            },
+            "language": "en",
+            "favorite_count": 0,
+            "retweet_count": 0,
+            "reply_count": 0,
+            "quote_count": 0,
+            "retweet": false,
+            "views": 262,
+            "timestamp": 1730749837,
+            "video_view_count": null,
+            "in_reply_to_status_id": null,
+            "quoted_status_id": null,
+            "binding_values": null,
+            "expanded_url": "https://miles-to-go-athletics.ck.page/ba47dc6adf",
+            "retweet_tweet_id": null,
+            "extended_entities": {
+                "media": [
+                    {
+                        "display_url": "pic.x.com/1eUa7Nkql2",
+                        "expanded_url": "https://x.com/FitBottomedGirl/status/1853525276992385494/photo/1",
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "features": {
+                            "large": {
+                                "faces": [
+                                    {
+                                        "x": 830,
+                                        "y": 80,
+                                        "h": 139,
+                                        "w": 139
+                                    },
+                                    {
+                                        "x": 108,
+                                        "y": 354,
+                                        "h": 316,
+                                        "w": 316
+                                    }
+                                ]
+                            }
+                        },
+                        "id_str": "1853525130451824640",
+                        "indices": [
+                            242,
+                            265
+                        ],
+                        "media_key": "3_1853525130451824640",
+                        "media_url_https": "https://pbs.twimg.com/media/GbkLSSbXMAAvboJ.jpg",
+                        "original_info": {
+                            "width": 1080,
+                            "height": 1350,
+                            "focus_rects": [
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1080,
+                                    "h": 605
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1080,
+                                    "h": 1080
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1080,
+                                    "h": 1231
+                                },
+                                {
+                                    "x": 405,
+                                    "y": 0,
+                                    "w": 675,
+                                    "h": 1350
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1080,
+                                    "h": 1350
+                                }
+                            ]
+                        },
+                        "sizes": {
+                            "large": {
+                                "w": 1080,
+                                "h": 1350
+                            }
+                        },
+                        "type": "photo",
+                        "url": "https://t.co/1eUa7Nkql2"
+                    }
+                ]
+            },
+            "conversation_id": "1853525276992385494",
+            "retweet_status": null,
+            "quoted_status": null,
+            "bookmark_count": 0,
+            "source": null,
+            "community_note": null
+        }
+    ],
+    "continuation_token": "DAABCgABGiEEhza__-kKAAIZuQtrRVax1ggAAwAAAAIAAA"
+}

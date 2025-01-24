@@ -3,10 +3,10 @@ import InfluentialAccounts from "../../../LLM/influential-accounts.json";
 export async function POST() {
     // We will get the connection to the database getClient
 
-    const client = getPrismaClient();
+    const pgClient = getPrismaClient();
 
     // create categories nutrition, fitness, medicine, mental health
-    await client.category.createMany({
+    await pgClient.category.createMany({
         data: [
             { name: "Nutrition" },
             { name: "Fitness" },
@@ -18,10 +18,13 @@ export async function POST() {
     // now add Influencers, their names and twitter handles are located in ../../LLM/influencial-accounts.json
     const influentialAccountsArray = InfluentialAccounts as Array<{ name: string, twitterHandle: string }>;
     
-    await client.influencer.createMany({
+    // create the influencers only if the twitter handle is unique
+    await pgClient.influencer.createMany({
         data: influentialAccountsArray
     });
     
+    // close the client
+    await pgClient.$disconnect();
 
     // return success message
     return Response.json({ message: "Success" });
