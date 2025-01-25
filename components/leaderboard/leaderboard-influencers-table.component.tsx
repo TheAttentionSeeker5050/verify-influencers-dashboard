@@ -4,9 +4,11 @@ import { InfluencerDTO } from '@/data/SQL/influencers.sqldata';
 import Link from 'next/link';
 
 
-export default function LeaderboardInfluencersTableComponent({ data }: { data: InfluencerDTO[] }) {
-    const influenceersList = data;
-    
+export default function LeaderboardInfluencersTableComponent({
+    influenceersList
+}: Readonly<{ 
+    influenceersList: InfluencerDTO[]
+}>) {
     return (
         <table className="">
             <thead>
@@ -21,7 +23,7 @@ export default function LeaderboardInfluencersTableComponent({ data }: { data: I
                 </tr>
             </thead>
             <tbody>
-                {influenceersList.map((influencer: InfluencerDTO) => {
+                {influenceersList ? influenceersList.map((influencer: InfluencerDTO) => {
                     return (
                         <tr key={influencer.twitterHandle}>
                             <td>{influencer.rank}</td>
@@ -37,7 +39,11 @@ export default function LeaderboardInfluencersTableComponent({ data }: { data: I
                             <td className="hidden sm:table-cell">{influencer.verifiedClaimsCount}</td>
                         </tr>
                     );
-                })}
+                }) : <tr>
+                        <td colSpan={7}>
+                            No influencers found
+                        </td>
+                    </tr>}
             </tbody>
         </table>
     )
