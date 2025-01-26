@@ -8,6 +8,7 @@ import Link from 'next/link'
 export default function DashboardPage() {
   return (<main>
       <h1>Home</h1>
+      
       <Link href="/leaderboard">Leaderboard</Link>
       <Link href="/research">Run Research Task</Link>
 

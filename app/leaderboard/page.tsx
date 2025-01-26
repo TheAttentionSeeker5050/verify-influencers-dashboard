@@ -3,6 +3,7 @@ import LeaderboardFilterByCategoryComponent from "@/components/leaderboard/leade
 import LeaderboardInfluencersTableComponent from "@/components/leaderboard/leaderboard-influencers-table.component";
 import { headers } from "next/headers";
 import Link from "next/link";
+import BackToDashboardComponent from "@/components/reusables/go-back-to-dashboard-button";
 
 
 export default async function LeaderboardPage({
@@ -28,9 +29,7 @@ export default async function LeaderboardPage({
     } catch (error) {}
 
     return (<main>
-        <Link href="/" >
-            Go Back to Dashboard
-        </Link>
+        <BackToDashboardComponent />
         <h1 className="">Influencer Trust Leaderboard</h1>
         <p className=""> 
             Real time rankings of health influencers based on scientific accuracy, credibility and transparency, updated daily using AI-powered systems

@@ -2,9 +2,9 @@
 import InfluencerClaimSectionComponent from "@/components/influencer-details/claims-filters";
 import ClaimsListSectionComponent from "@/components/influencer-details/claims-list";
 import InfluencerStatsSectionComponent from "@/components/influencer-details/influencer-stats-cards";
+import BackToDashboardComponent from "@/components/reusables/go-back-to-dashboard-button";
 import getPrismaClient from "@/config/prisma-client";
 import { formatTwitterHandle } from "@/utils/stringFormatters";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 
 // get id from params
@@ -51,9 +51,7 @@ export default async function InfluencerDetailsPage({
 
     return (
         <main>
-            <Link href="/" >
-                Go Back to Dashboard
-            </Link>
+            <BackToDashboardComponent/>
             <h1>
                 {influencer.name}
             </h1>
