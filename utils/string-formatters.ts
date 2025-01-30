@@ -39,3 +39,11 @@ export function formatPercentage(percentage: number | null) : string {
     if (percentage < 0 || percentage > 100) return "N/A";
     return `${percentage.toFixed(0)}%`
 }
+
+// format trend direction, can only be up or down, else display N/A
+export function formatTrendDirectionToSignalNumber(trend: string | null) : number {
+    if (trend === null) return 0;
+    if (trend.toLowerCase() === "up") return 1;
+    if( trend.toLowerCase() === "down") return -1;
+    return 0;
+}

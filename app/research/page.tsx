@@ -3,8 +3,10 @@
 import {PrimaryColorActionButton} from "@/components/reusables/buttons";
 import { PrimaryTextArea, PrimaryTextInput } from "@/components/reusables/form-inputs";
 import BackToDashboardComponent from "@/components/reusables/go-back-to-dashboard-button";
+import { AppStatusMessagesComponent } from "@/components/reusables/status-messages";
 import ToggleOptionButtonComponent from "@/components/reusables/toggle-options-button";
 import ToggleSwitchComponent from "@/components/reusables/toggle-switch";
+import { formatTwitterHandle } from "@/utils/string-formatters";
 import { faGear } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useEffect, useState } from "react";
@@ -27,6 +29,27 @@ export default function RunResearchPagePage() {
     ]);
     const [newJournal, setNewJournal] = useState("");
     const [newJournalIsOpen, setNewJournalIsOpen] = useState(false);
+
+    const [influencerAutofillName, setInfluencerAutofillName] = useState("");
+
+    const [influencerAutofillList, setInfluencerAutofillList] = useState([]);
+
+    const populateAutofillList = (e: React.ChangeEvent<HTMLInputElement>) => {
+        
+        setInfluencerAutofillName(e.target.value);
+
+        if (e.target.value === "") {
+            setInfluencerAutofillList([]);
+            return;
+        }
+        // asyncronously fetch the list of influencers from the backend
+        fetch(`http://localhost:3000/api/influencers/autocomplete-influencer-name?q=${e.target.value}`)
+        .then(response => response.json())
+        .then(data => {
+            setInfluencerAutofillList(Array.from(data.data) ?? []);
+        })
+        .catch(error => console.error("Error fetching autofill list", error));
+    };
 
     const onResearchFormSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
@@ -86,15 +109,9 @@ export default function RunResearchPagePage() {
                 Research Task
             </span>
         </section>
-
-        <section id="research-tasks-section" className="flex flex-col gap-3">
-            {successMessage && (
-                <div className="p-4 bg-emerald-200 text-emerald-700 rounded-md">{successMessage}</div>
-            )}
-            {!successMessage && errorMessage && (
-                <div className="p-4 bg-red-200 text-red-700 rounded-md">{errorMessage}</div>
-            )}
-        </section>
+        {successMessage || errorMessage &&
+            <AppStatusMessagesComponent successMessage={successMessage} errorMessage={errorMessage}/>
+        }
 
         <section id="research-tasks-section" className="bg-slate-800 p-4 rounded-md border-2 border-white">
             <h2 className="text-xl font-bold text-white mb-4">
@@ -114,9 +131,22 @@ export default function RunResearchPagePage() {
                     <ToggleOptionButtonComponent title="Last Year" currentStateOptions={timeRange} onClickSelectionAction={setTimeRange} selectionButtonOption="last-year" />
                     <ToggleOptionButtonComponent title="All Time" currentStateOptions={timeRange} onClickSelectionAction={setTimeRange} selectionButtonOption="all-time" />
                 </div>
-                <div className="form-group w-1/2 p-4 flex items-stretch flex-col gap-2 items-center">
-                    <label htmlFor="influencer-name">Influencer Name</label>
-                    <input type="text" id="influencer-name" name="influencer-name" className="bg-gray-600 rounded-md px-2 py-1 text-gray-100 focus:bg-gray-700"/>
+                <div className="form-group w-1/2 p-4 flex items-stretch flex-col items-center">
+                    <label htmlFor="influencer-name" className="py-2">Influencer Name</label>
+                    <input type="text" id="influencer-name" name="influencer-name" className="bg-gray-600 rounded-md px-2 py-1 mb-1 text-gray-100 focus:bg-gray-700" value={influencerAutofillName} onChange={populateAutofillList}
+                    />
+                    {/* use a dropdown menu of buttons that will be relative positioned to the influencer name */}
+                    <ul className="relative top-0 left-0 w-full rounded-md">
+                        {
+                            // TODO: Specify the type of the influencer object
+                            // eslint-disable-next-line @typescript-eslint/no-explicit-any
+                            influencerAutofillList.map((influencer: any) => {
+                                return (
+                                    <li key={influencer.id} className="p-2 hover:bg-teal-900 border-2 border-white cursor-pointer">{influencer.name} | {formatTwitterHandle(influencer.twitterHandle)}</li>
+                                );
+                            })
+                        }
+                    </ul>
                 </div> 
                 <div className="form-group w-1/2 p-4">
                     <ToggleSwitchComponent label={"Verify with Scientific Journals"} isOn={verifyWithScientificJournalsIsOn} setIsOn={setVerifyWithScientificJournalsIsOn} />

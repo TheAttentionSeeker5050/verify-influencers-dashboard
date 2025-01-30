@@ -1,5 +1,5 @@
 import getPrismaClient from "@/config/prisma-client";
-import { formatTwitterHandle } from "@/utils/stringFormatters";
+import { formatTwitterHandle } from "@/utils/string-formatters";
 
 // This post request will take details from the twitter API and update the influencer's details in the database. The following attributes are modifier: followersCount, trendDirection
 export async function GET(request: Request) {

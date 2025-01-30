@@ -13,10 +13,8 @@ export default function ToggleOptionButtonComponent({
     const comparisonFunction = () => {
         // first, if currentStateOption is an array, we will check if the selectionButtonOption is included in the array
         if (Array.isArray(currentStateOptions)) {
-            console.log("it is an array");
             return currentStateOptions.includes(selectionButtonOption);
         } else if (typeof currentStateOptions === "string") {
-            console.log("it is a string");
             return currentStateOptions === selectionButtonOption;
         }
 

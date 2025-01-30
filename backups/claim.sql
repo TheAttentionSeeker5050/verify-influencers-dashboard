@@ -15,6 +15,9 @@ CREATE TABLE "public"."Claim" (
     "categoryId" integer NOT NULL,
     "createdAt" timestamp(3) DEFAULT CURRENT_TIMESTAMP NOT NULL,
     "updatedAt" timestamp(3) NOT NULL,
+    "trustScore" double precision,
+    "claimSource" text,
+    "aiAnalysis" text,
     CONSTRAINT "Claim_pkey" PRIMARY KEY ("id")
 ) WITH (oids = false);
 
@@ -23,4 +26,4 @@ TRUNCATE "Claim";
 ALTER TABLE ONLY "public"."Claim" ADD CONSTRAINT "Claim_categoryId_fkey" FOREIGN KEY ("categoryId") REFERENCES "Category"(id) ON UPDATE CASCADE ON DELETE RESTRICT NOT DEFERRABLE;
 ALTER TABLE ONLY "public"."Claim" ADD CONSTRAINT "Claim_influencerId_fkey" FOREIGN KEY ("influencerId") REFERENCES "Influencer"(id) ON UPDATE CASCADE ON DELETE RESTRICT NOT DEFERRABLE;
 
--- 2025-01-23 17:09:02.215233+00
+-- 2025-01-30 18:06:48.786797+00

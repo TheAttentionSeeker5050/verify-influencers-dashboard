@@ -2,9 +2,17 @@
  
 import { ChangeEvent, MouseEvent } from 'react';
 import { useRouter } from 'next/navigation';
-import { formatKebabCaseToTitleLabel } from '@/utils/stringFormatters';
+import { formatKebabCaseToTitleLabel } from '@/utils/string-formatters';
 
-export default function LeaderboardFilterByCategoryComponent() {
+// // url utilities
+// import { getNewUrlWithSortOrderAndSortBy } from '@/utils/url-utilities';
+
+export default function LeaderboardFilterByCategoryComponent({
+    selectedCategory,
+}: Readonly<{
+    selectedCategory: string,
+}>
+) {
     // redirect to the new URL
     const router = useRouter();
 
@@ -20,17 +28,18 @@ export default function LeaderboardFilterByCategoryComponent() {
         router.push(url.toString())
     }
  
-    return (<>
+    return (
+        <>
             <ul id="leaderboard-filter-section__filter-by-category" className="sm:flex flex-row gap-2 hidden">
                 {categoryList.map((category) => {
                     return <li key={category}>
-                        <button type='button' onClick={handleFilterChange} value={category} key={category}>
+                        <button type='button' onClick={handleFilterChange} value={category} key={category} className={`${category === selectedCategory ? 'bg-emerald-900' : ''} bg-emerald-700 hover:bg-emerald-600 rounded-full py-1 px-3`}>
                             {formatKebabCaseToTitleLabel(category)}
                         </button>
                     </li>
                 })}
             </ul>
-            <select onChange={handleFilterChange} className='sm:hidden block'>
+            <select onChange={handleFilterChange} className='sm:hidden block bg-emerald-800  rounded-full py-1 px-3 w-full'>
                 {categoryList.map((category) => {
                     return <option value={category} key={category}>
                         {formatKebabCaseToTitleLabel(category)}

@@ -1,5 +1,5 @@
 
-import { formatPercentage } from "@/utils/stringFormatters";
+import { formatPercentage } from "@/utils/string-formatters";
 import { Claim } from "@prisma/client";
 import Link from "next/link";
 

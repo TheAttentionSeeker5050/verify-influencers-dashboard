@@ -1,4 +1,4 @@
-import { formatFollowerOrClaimsCount, formatPercentage, formatYearlyRevenue } from "@/utils/stringFormatters";
+import { formatFollowerOrClaimsCount, formatPercentage, formatYearlyRevenue } from "@/utils/string-formatters";
 
 export default function InfluencerStatsSectionComponent() {
     return (

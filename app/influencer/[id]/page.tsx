@@ -4,7 +4,7 @@ import ClaimsListSectionComponent from "@/components/influencer-details/claims-l
 import InfluencerStatsSectionComponent from "@/components/influencer-details/influencer-stats-cards";
 import BackToDashboardComponent from "@/components/reusables/go-back-to-dashboard-button";
 import getPrismaClient from "@/config/prisma-client";
-import { formatTwitterHandle } from "@/utils/stringFormatters";
+import { formatTwitterHandle } from "@/utils/string-formatters";
 import { notFound } from "next/navigation";
 
 // get id from params
