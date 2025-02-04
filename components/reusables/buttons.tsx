@@ -2,7 +2,7 @@ export function PrimaryColorActionButton({
     title, action, className, disabled, buttonType
 }: Readonly<{
     title: string;
-    action: () => void;
+    action?: () => void;
     className?: string;
     disabled?: boolean;
     buttonType?: "button" | "submit" | "reset";

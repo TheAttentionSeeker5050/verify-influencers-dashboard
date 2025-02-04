@@ -64,7 +64,7 @@ export default function LeaderboardInfluencersTableComponent({
     return (
         <table className="w-full table-auto">
             <thead className='bg-slate-600 text-slate-300'>
-                <tr className='*:px-2 *:py-3 *:text-left *:font-normal hover:*:bg-slate-500'> {/* *: is a tailwindcss children selector shorthand for all table cells */}
+                <tr className='*:px-2 *:py-3 *:text-left *:font-normal hover:*:bg-slate-500'> 
                     <th className='rounded-tl-lg' id='rank'>
                         <Link href={getNewUrlWithSortOrderAndSortBy(sortOrder, sortBy, filterByCategory, 'rank')}>
                             Rank <SortOrderArrowUpOrDownIconComponent sortOrder={sortOrder} sortBy={sortBy} parentColumn='rank' />

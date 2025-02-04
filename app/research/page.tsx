@@ -29,8 +29,9 @@ export default function RunResearchPagePage() {
     ]);
     const [newJournal, setNewJournal] = useState("");
     const [newJournalIsOpen, setNewJournalIsOpen] = useState(false);
-
+    
     const [influencerAutofillName, setInfluencerAutofillName] = useState("");
+    const [influencerTwitterHandle, setInfluencerTwitterHandle] = useState("");
 
     const [influencerAutofillList, setInfluencerAutofillList] = useState([]);
 
@@ -51,7 +52,7 @@ export default function RunResearchPagePage() {
         .catch(error => console.error("Error fetching autofill list", error));
     };
 
-    const onResearchFormSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    const onResearchFormSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
 
         // get the data from the form 
@@ -62,9 +63,21 @@ export default function RunResearchPagePage() {
         formData.append("time-range", timeRange);
         formData.append("verify-with-scientific-journals", selectedScientificJournalsList.join(", "));
 
-        // print the form values to an array
-        console.log(Object.fromEntries(formData.entries()));
-
+        // send the form data to the backend
+        await fetch("http://localhost:3000/api/run-research", {
+            method: "POST",
+            body: formData
+        })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error("Error fetching tweets");
+                }
+                return response.json();
+            })
+            .then(data => {
+                console.log(data);
+            })
+            .catch(error => console.error("Error sending form data", error))
     };
 
     const addOrRemoveSelectedJournal = (journal: string) => {
@@ -95,10 +108,23 @@ export default function RunResearchPagePage() {
             setErrorMessage("");
         }, 5000);
     }, [errorMessage]);
-                        
+
+    // Handle select the dropdown option
+    function handleDropdownOptionClick(e: React.MouseEvent<HTMLButtonElement>, newTwitterHandle: string) {
+        // set the state twitter handle to the selected influencer 
+        setInfluencerTwitterHandle(newTwitterHandle);
+
+        // empty influencer autofill list and input value
+        setInfluencerAutofillList([]);
+        setInfluencerAutofillName("");
+
+        // set the influencer name to the selected influencer name
+        setInfluencerTwitterHandle(newTwitterHandle);
+    }
 
     return (
-    <main id="research-page" className="p-4 min-h-screen max-w-4xl mx-auto flex flex-col gap-2">
+    <main id="research-page" className="p-4 min-h-screen h-full max-w-4xl mx-auto flex flex-col gap-2">
+
         <h1 hidden>
             Research Task
         </h1>
@@ -118,7 +144,7 @@ export default function RunResearchPagePage() {
                 <FontAwesomeIcon icon={faGear} className="mr-2 text-emerald-500 text-base" />
                 Research Configuration
             </h2>
-            <form action="/research" method="GET" onSubmit={onResearchFormSubmit} className="flex flex-row flex-wrap">
+            <form onSubmit={onResearchFormSubmit} className="flex flex-row flex-wrap">
                 <div className="form-group flex flex-row gap-4 items-start justify-between flex-wrap w-full p-4">
                     <ToggleOptionButtonComponent title="Specific Influencer" subTitle="Research a known health insurance by name" currentStateOptions={researchFocus} onClickSelectionAction={setResearchFocus} selectionButtonOption="specific-influencer" />
                     <ToggleOptionButtonComponent title="New Influencer" subTitle="Research a known health insurance by name" currentStateOptions={researchFocus} onClickSelectionAction={setResearchFocus} selectionButtonOption="new-influencer" />
@@ -135,6 +161,8 @@ export default function RunResearchPagePage() {
                     <label htmlFor="influencer-name" className="py-2">Influencer Name</label>
                     <input type="text" id="influencer-name" name="influencer-name" className="bg-gray-600 rounded-md px-2 py-1 mb-1 text-gray-100 focus:bg-gray-700" value={influencerAutofillName} onChange={populateAutofillList}
                     />
+                    <input type="hidden" name="influencer-id" value={influencerTwitterHandle} />
+                    <span className="text-gray-400 text-md">{influencerTwitterHandle}</span>
                     {/* use a dropdown menu of buttons that will be relative positioned to the influencer name */}
                     <ul className="relative top-0 left-0 w-full rounded-md">
                         {
@@ -142,7 +170,11 @@ export default function RunResearchPagePage() {
                             // eslint-disable-next-line @typescript-eslint/no-explicit-any
                             influencerAutofillList.map((influencer: any) => {
                                 return (
-                                    <li key={influencer.id} className="p-2 hover:bg-teal-900 border-2 border-white cursor-pointer">{influencer.name} | {formatTwitterHandle(influencer.twitterHandle)}</li>
+                                    <li key={influencer.id} className="p-2 hover:bg-teal-900 border-2 border-white cursor-pointer">
+                                        <button type="button" onClick={(e) => handleDropdownOptionClick(e, influencer.twitterHandle)} className="w-full">
+                                            {influencer.name} | {formatTwitterHandle(influencer.twitterHandle)}
+                                        </button>
+                                    </li>
                                 );
                             })
                         }
@@ -153,24 +185,25 @@ export default function RunResearchPagePage() {
                 </div>
                 <div className="form-group w-1/2 p-4 flex items-stretch flex-col gap-2 items-center">
                     <label htmlFor="claims-to-analyze">Claims to Analyze Per Influencer</label>
-                    <input type="number" id="claims" name="claims" className="bg-gray-600 rounded-md px-2 py-1 text-gray-100 focus:bg-gray-700"/>
+                    <input type="number" id="claims" name="claims" className="bg-gray-600 rounded-md px-2 py-1 text-gray-100 focus:bg-gray-700" defaultValue={1}/>
                 </div>
-                
-                <div className="form-group flex flex-row justify-between content-start flex-wrap w-full p-4 gap-2">
-                    {/* This specify the list of journals */}
-                    <span className="w-full my-2">Scientific Journals</span>
-                    {scientificJournalOptionsList.map(journal => {
-                        return (
-                                <ToggleOptionButtonComponent title={journal} currentStateOptions={selectedScientificJournalsList} onClickSelectionAction={addOrRemoveSelectedJournal} selectionButtonOption={journal} key={journal} className="w-2/5 grow-0"/> // grow-0 is a custom class to prevent the button from growing, because it comes after the already in flex-grow-1 style
-                        );
-                    })}
+                {verifyWithScientificJournalsIsOn &&
+                    <div className="form-group flex flex-row justify-between content-start flex-wrap w-full p-4 gap-2">
+                        {/* This specify the list of journals */}
+                        <span className="w-full my-2">Scientific Journals</span>
+                        {scientificJournalOptionsList.map(journal => {
+                            return (
+                                    <ToggleOptionButtonComponent title={journal} currentStateOptions={selectedScientificJournalsList} onClickSelectionAction={addOrRemoveSelectedJournal} selectionButtonOption={journal} key={journal} className="w-2/5 grow-0"/> // grow-0 is a custom class to prevent the button from growing, because it comes after the already in flex-grow-1 style
+                            );
+                        })}
 
-                    {/* Add new journal btn */}
-                    <div className="w-full">
-                        <button className="text-emerald-500 p-2 hover:text-emerald-600 text-lg" type="button" onClick={() => setNewJournalIsOpen(!newJournalIsOpen)}
-                        >Add New Journal</button>
+                        {/* Add new journal btn */}
+                        <div className="w-full">
+                            <button className="text-emerald-500 p-2 hover:text-emerald-600 text-lg" type="button" onClick={() => setNewJournalIsOpen(!newJournalIsOpen)}
+                            >Add New Journal</button>
+                        </div>
                     </div>
-                </div>
+                }
                 <div className={`form-group w-full p-4 flex-row gap-2 items-center ${newJournalIsOpen ? "flex" : "hidden"}`}>
                     <span>New Journal:</span>
                     <PrimaryTextInput value={newJournal} onChange={(e) => setNewJournal(e.target.value)} placeholder="Enter the name of the new journal" name=""/>
@@ -181,7 +214,7 @@ export default function RunResearchPagePage() {
                     <PrimaryTextArea placeholder="Enter notes for the research assistant" name="notes-to-assistant" rowSize={5} className="w-full"/>
                 </div>
                 <div className="form-group w-full p-4 flex flex-row justify-end">
-                    <PrimaryColorActionButton title="Start Research" action={() => {console.log("submit button")}} buttonType="submit" className="self-end"/>
+                    <PrimaryColorActionButton title="Start Research" buttonType="submit" className="self-end"/>
                 </div>
             </form>
         </section>

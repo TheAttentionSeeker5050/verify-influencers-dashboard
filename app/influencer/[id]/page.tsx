@@ -5,6 +5,7 @@ import InfluencerStatsSectionComponent from "@/components/influencer-details/inf
 import BackToDashboardComponent from "@/components/reusables/go-back-to-dashboard-button";
 import getPrismaClient from "@/config/prisma-client";
 import { formatTwitterHandle } from "@/utils/string-formatters";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 
 // get id from params
@@ -50,12 +51,15 @@ export default async function InfluencerDetailsPage({
     }
 
     return (
-        <main>
-            <BackToDashboardComponent/>
-            <h1>
+        <main id="influencer-page" className="p-4 min-h-screen max-w-4xl mx-auto gap-3">
+            <div className="">
+                <BackToDashboardComponent/>
+            </div>
+            <Image src={"/images/profile-picture.png"} alt={influencer.name} width={50} height={50} className="rounded-full"/>
+            <h1 className="text-3xl font-bold">
                 {influencer.name}
             </h1>
-            <p>
+            <p className="">
                 {influencer.description}
             </p>
 
