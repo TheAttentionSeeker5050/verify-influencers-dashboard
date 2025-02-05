@@ -14,6 +14,16 @@ export const formatTwitterHandle = (twitterHandle?: string) => {
     return decodedTwitterHandle.startsWith("@") ? decodedTwitterHandle : `@${decodedTwitterHandle}`
 }
 
+// format the twitter handle to always exclude the "@" symbol
+export const formatTwitterHandleNoArrobase = (twitterHandle?: string) => {
+    const decodedTwitterHandle = decodeURIComponent(twitterHandle || "");
+    
+    if (!decodedTwitterHandle) return "";
+    return decodedTwitterHandle.startsWith("@") ? decodedTwitterHandle.slice(1) : decodedTwitterHandle
+}
+
+
+
 // have the numbers be formatted after 1500 to be in the format of 2K, 2.5K, 3K, 4.2M, etc. always include a + sign and round down to the nearest 1 decimal place
 export function formatFollowerOrClaimsCount(followerCount: number | null) : string {
     if (followerCount === null || followerCount < 0) return "N/A";

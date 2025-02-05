@@ -3,12 +3,14 @@
 import {PrimaryColorActionButton} from "@/components/reusables/buttons";
 import { PrimaryTextArea, PrimaryTextInput } from "@/components/reusables/form-inputs";
 import BackToDashboardComponent from "@/components/reusables/go-back-to-dashboard-button";
+import ResearchProgressModalComponent from "@/components/reusables/modal-research-progress";
 import { AppStatusMessagesComponent } from "@/components/reusables/status-messages";
 import ToggleOptionButtonComponent from "@/components/reusables/toggle-options-button";
 import ToggleSwitchComponent from "@/components/reusables/toggle-switch";
 import { formatTwitterHandle } from "@/utils/string-formatters";
 import { faGear } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { set } from "mongoose";
 import { useEffect, useState } from "react";
 export default function RunResearchPagePage() {
 
@@ -21,6 +23,9 @@ export default function RunResearchPagePage() {
     // Display status message states
     const [successMessage, setSuccessMessage] = useState("");
     const [errorMessage, setErrorMessage] = useState("");
+
+    const [messageResearchStatus, setMessageResearchStatus] = useState("" as string);
+    const [researchProgressModalIsOpen, setResearchProgressModalIsOpen] = useState(false);
 
     // States of custom form elements display logic
     const [verifyWithScientificJournalsIsOn, setVerifyWithScientificJournalsIsOn] = useState(false);
@@ -55,6 +60,8 @@ export default function RunResearchPagePage() {
     const onResearchFormSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
 
+        setResearchProgressModalIsOpen(true);
+
         // get the data from the form 
         const form = e.currentTarget;
         const formData = new FormData(form);
@@ -62,6 +69,24 @@ export default function RunResearchPagePage() {
         formData.append("research-focus", researchFocus);
         formData.append("time-range", timeRange);
         formData.append("verify-with-scientific-journals", selectedScientificJournalsList.join(", "));
+
+        console.log("Form data", formData.forEach((value, key) => console.log(key, ":", value)));
+
+        await fetch("http://localhost:3000/api/run-research/populate-new-tweets", {
+            method: "POST",
+            body: formData
+        })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error("Error fetching tweets");
+                }
+                return response.json();
+            })
+            .then(data => {
+                console.log(data);
+                setMessageResearchStatus(data.message);
+            })
+            .catch(error => console.error("Error sending form data", error));
 
         // send the form data to the backend
         await fetch("http://localhost:3000/api/run-research", {
@@ -75,9 +100,12 @@ export default function RunResearchPagePage() {
                 return response.json();
             })
             .then(data => {
-                console.log(data);
+                setMessageResearchStatus(data.message);
             })
             .catch(error => console.error("Error sending form data", error))
+            .finally(() => {
+                setResearchProgressModalIsOpen(false);
+            });
     };
 
     const addOrRemoveSelectedJournal = (journal: string) => {
@@ -124,6 +152,8 @@ export default function RunResearchPagePage() {
 
     return (
     <main id="research-page" className="p-4 min-h-screen h-full max-w-4xl mx-auto flex flex-col gap-2">
+
+        <ResearchProgressModalComponent researchProgressModalIsOpen={researchProgressModalIsOpen} messageResearchStatus={messageResearchStatus} />
 
         <h1 hidden>
             Research Task

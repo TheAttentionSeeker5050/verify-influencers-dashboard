@@ -19,11 +19,11 @@ export async function GET(request: Request) {
     const url = `https://twitter154.p.rapidapi.com/user/details?username=${twitterHandle}`;
 
     const options = {
-    method: 'GET',
-    headers: {
-        'x-rapidapi-key': 'a352e92c81msh013f812006df9f8p12fdbbjsn41aa56c0db7a',
-        'x-rapidapi-host': 'twitter154.p.rapidapi.com'
-    }
+        method: 'GET',
+        headers: {
+            'x-rapidapi-key': process.env.TWITTER_API_KEY ?? "",
+            'x-rapidapi-host': process.env.TWITTER_API_HOST ?? ""
+        }
     };
 
     try {
