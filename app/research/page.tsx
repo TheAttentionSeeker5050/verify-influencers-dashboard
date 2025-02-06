@@ -10,7 +10,6 @@ import ToggleSwitchComponent from "@/components/reusables/toggle-switch";
 import { formatTwitterHandle } from "@/utils/string-formatters";
 import { faGear } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { set } from "mongoose";
 import { useEffect, useState } from "react";
 export default function RunResearchPagePage() {
 
@@ -40,6 +39,8 @@ export default function RunResearchPagePage() {
 
     const [influencerAutofillList, setInfluencerAutofillList] = useState([]);
 
+    const [formData, setFormData] = useState(new FormData());
+
     const populateAutofillList = (e: React.ChangeEvent<HTMLInputElement>) => {
         
         setInfluencerAutofillName(e.target.value);
@@ -57,6 +58,30 @@ export default function RunResearchPagePage() {
         .catch(error => console.error("Error fetching autofill list", error));
     };
 
+
+    function executeFetchRequest(
+        fetchRequest: () => Promise<Response>,
+        nextStatus: string
+    ): Promise<Response> {
+        return fetchRequest()
+        .then((response) => {
+            if (!response.ok) {
+                console.error("Error running research", response);
+                throw new Error("Error running research");
+            }
+            return response.json();
+        }).then((data) => {
+            console.log(data);
+            setMessageResearchStatus(nextStatus);
+            return data;
+        }).catch((error) => {
+            setMessageResearchStatus("");
+            setResearchProgressModalIsOpen(false);
+            console.error("Error running research", error);
+            return error;
+        });
+    }
+
     const onResearchFormSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
 
@@ -64,48 +89,29 @@ export default function RunResearchPagePage() {
 
         // get the data from the form 
         const form = e.currentTarget;
-        const formData = new FormData(form);
+        const newFormData = new FormData(form);
         // add the dynamic form values to the form data
         formData.append("research-focus", researchFocus);
         formData.append("time-range", timeRange);
         formData.append("verify-with-scientific-journals", selectedScientificJournalsList.join(", "));
 
-        console.log("Form data", formData.forEach((value, key) => console.log(key, ":", value)));
+        setFormData(newFormData);
 
-        await fetch("http://localhost:3000/api/run-research/populate-new-tweets", {
-            method: "POST",
-            body: formData
-        })
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error("Error fetching tweets");
+        try {
+            setMessageResearchStatus("FETCHING_TWEETS");
+            const fetchTweetsFromApiRequest = fetch("http://localhost:3000/api/run-research/populate-new-tweets", {
+                method: "POST",
+                body: formData,
+                headers: {
+                    contentType: "application/json"
                 }
-                return response.json();
-            })
-            .then(data => {
-                console.log(data);
-                setMessageResearchStatus(data.message);
-            })
-            .catch(error => console.error("Error sending form data", error));
-
-        // send the form data to the backend
-        await fetch("http://localhost:3000/api/run-research", {
-            method: "POST",
-            body: formData
-        })
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error("Error fetching tweets");
-                }
-                return response.json();
-            })
-            .then(data => {
-                setMessageResearchStatus(data.message);
-            })
-            .catch(error => console.error("Error sending form data", error))
-            .finally(() => {
-                setResearchProgressModalIsOpen(false);
             });
+
+            executeFetchRequest(() => fetchTweetsFromApiRequest, "RESEARCHING");
+        } catch (error) {
+            // console.error("Error sending form data", error);
+            setErrorMessage("Error running research");
+        } 
     };
 
     const addOrRemoveSelectedJournal = (journal: string) => {
@@ -135,7 +141,35 @@ export default function RunResearchPagePage() {
             setSuccessMessage("");
             setErrorMessage("");
         }, 5000);
-    }, [errorMessage]);
+
+    }, [errorMessage, successMessage]);
+
+    useEffect(() => {
+        // if not open, dont do any request
+        if (researchProgressModalIsOpen === false) {
+            setMessageResearchStatus("");
+            return;
+        };
+
+        if (messageResearchStatus === "RESEARCHING") {
+            console.log("Researching...");
+            console.log("Form data", formData);
+            const verifyClaimsRequest = fetch("http://localhost:3000/api/run-research", {
+                method: "POST",
+                body: formData,
+                headers: {
+                    contentType: "application/json"
+                }
+            });
+
+            executeFetchRequest(() => verifyClaimsRequest, "DONE");
+        } else if (messageResearchStatus === "DONE") {
+            setTimeout(() => {
+                setResearchProgressModalIsOpen(false);
+            })
+        }
+
+    }, [messageResearchStatus]);
 
     // Handle select the dropdown option
     function handleDropdownOptionClick(e: React.MouseEvent<HTMLButtonElement>, newTwitterHandle: string) {
@@ -152,8 +186,9 @@ export default function RunResearchPagePage() {
 
     return (
     <main id="research-page" className="p-4 min-h-screen h-full max-w-4xl mx-auto flex flex-col gap-2">
-
-        <ResearchProgressModalComponent researchProgressModalIsOpen={researchProgressModalIsOpen} messageResearchStatus={messageResearchStatus} />
+        {/* {messageResearchStatus !== "CLOSE" && */}
+            <ResearchProgressModalComponent researchProgressModalIsOpen={researchProgressModalIsOpen} messageResearchStatus={messageResearchStatus} setResearchProgressModalIsOpen={setResearchProgressModalIsOpen} />
+        {/* } */}
 
         <h1 hidden>
             Research Task
