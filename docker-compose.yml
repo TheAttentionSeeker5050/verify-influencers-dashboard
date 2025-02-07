@@ -2,7 +2,7 @@ version: '3.9'
 
 services:
 
-  db:
+  postgres:
     image: postgres
     restart: always
     # set shared memory limit when using docker-compose
@@ -17,6 +17,7 @@ services:
       POSTGRES_PASSWORD: postgres
       POSTGRES_DB: influencer-db
       POSTGRES_USER: postgres
+      POSTGRES_DATABASE_URL: postgresql://postgres:postgres@postgres:5432/influencer-db
     # run .sql files from /backups queries to the container on initialization
     volumes:
       - ./backups:/docker-entrypoint-initdb.d

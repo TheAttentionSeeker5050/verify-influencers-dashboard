@@ -16,7 +16,7 @@ datasource db {
 // The `Category` model has: id (integer), name, createdAt, updatedAt
 model Category {
   id         Int          @id @default(autoincrement())
-  name       String
+  name       String       @unique
   createdAt  DateTime     @default(now())
   updatedAt  DateTime     @updatedAt
   Influencer Influencer[]
@@ -46,18 +46,16 @@ model Influencer {
 // The `Claim` model has: id (int), influencer, claim (string), tweetId (string), verificationStatus [verified, questionable, debunked], category, createdAt, updatedAt
 model Claim {
   id                 Int        @id @default(autoincrement())
-  influencer         Influencer @relation(fields: [influencerId], references: [id])
-  influencerId       Int
+  influencer         Influencer @relation(fields: [influencerId], references: [twitterHandle])
+  influencerId       String
   claim              String
-  tweetId            String
   verificationStatus String
-  category           Category   @relation(fields: [categoryId], references: [id])
-  categoryId         Int // this category is different from the category of the influencer
+  category           Category   @relation(fields: [categoryId], references: [name])
+  categoryId         String // this category is different from the category of the influencer
   createdAt          DateTime   @default(now())
   updatedAt          DateTime   @updatedAt
   aiAnalysis         String?
   trustScore         Float?
-  claimSource        String?
 }
 
 

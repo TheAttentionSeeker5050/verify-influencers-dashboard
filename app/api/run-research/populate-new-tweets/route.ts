@@ -53,17 +53,18 @@ export async function POST(request: Request) {
             'x-rapidapi-host': process.env.TWITTER_API_HOST ?? ""
         }
     };
+
     
+    // connect to mongo db
+    const mongoClient = getMongooseClient();
+    if (!mongoClient) {
+        return Response.json({ message: "Failed to connect to database" }, { status: 500, headers: { "Content-Type": "application/json" } });
+    }        
     try {
-        // connect to mongo db
-        const mongoClient = getMongooseClient();
-        if (!mongoClient) {
-            return Response.json({ message: "Failed to connect to database" }, { status: 500, headers: { "Content-Type": "application/json" } });
-        }
         
         // attempt to get the tweet schema from the database
         // having the same user handle as influencerId
-        const tweetModel = mongoClient.model("tweet", tweetSchema);
+        const tweetModel = mongoClient.model("tweets", tweetSchema);
 
         const influencerTweetsFromDB = await tweetModel.findOne({ userHandle: influencerId });
 
@@ -71,6 +72,7 @@ export async function POST(request: Request) {
         const lastDate = influencerTweetsFromDB?.tweets[influencerTweetsFromDB.tweets.length - 1]?.creation_date ?? null;
         
         while (true) {
+            console.log("iteration");
             if (!continuationToken) {
                 url = `${TWITTER_API_URL}${GET_USER_TWEETS}?username=${formatTwitterHandleNoArrobase(influencerId)}&limit=40&include_replies=false&include_pinned=false`;
             } else {
@@ -146,7 +148,10 @@ export async function POST(request: Request) {
     } catch (error) {
         console.error("Error: ", error);
         return Response.json({ message: "Failed to fetch tweets" }, { status: 500, headers: { "Content-Type": "application/json" } });
-    }
+    } 
+    
+        
+    
 
     return Response.json({ message: "Tweets successfully fetched" }, { status: 200, headers: { "Content-Type": "application/json" } });
 }
@@ -158,9 +163,10 @@ export async function GET() {
     if (!mongoClient) {
         return Response.json({ message: "Failed to connect to database" }, { status: 500, headers: { "Content-Type": "application/json" } });
     }
+
     try {
 
-        const tweetModel = mongoClient.model("tweet", tweetSchema);
+        const tweetModel = mongoClient.model("tweets", tweetSchema);
 
         const influencerTweetsFromDB = await tweetModel.findOne({ userHandle: "@dreades" });
 

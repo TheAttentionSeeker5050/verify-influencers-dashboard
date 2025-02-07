@@ -64,22 +64,22 @@ export default function RunResearchPagePage() {
         nextStatus: string
     ): Promise<Response> {
         return fetchRequest()
-        .then((response) => {
-            if (!response.ok) {
-                console.error("Error running research", response);
-                throw new Error("Error running research");
-            }
-            return response.json();
-        }).then((data) => {
-            console.log(data);
-            setMessageResearchStatus(nextStatus);
-            return data;
-        }).catch((error) => {
-            setMessageResearchStatus("");
-            setResearchProgressModalIsOpen(false);
-            console.error("Error running research", error);
-            return error;
-        });
+            .then((response) => {
+                if (!response.ok) {
+                    console.error("Error running research", response);
+                    throw new Error("Error running research");
+                }
+                return response.json();
+            }).then(async (data) => {
+                console.log(data);
+                setMessageResearchStatus(nextStatus);
+                return data;
+            }).catch((error) => {
+                setMessageResearchStatus("");
+                setResearchProgressModalIsOpen(false);
+                console.error("Error running research", error);
+                return error;
+            });
     }
 
     const onResearchFormSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -107,9 +107,9 @@ export default function RunResearchPagePage() {
                 }
             });
 
-            executeFetchRequest(() => fetchTweetsFromApiRequest, "RESEARCHING");
+            executeFetchRequest(() => fetchTweetsFromApiRequest, "FORMATTING_TWEETS_AS_CLAIMS");
         } catch (error) {
-            // console.error("Error sending form data", error);
+            console.error("Error sending form data", error);
             setErrorMessage("Error running research");
         } 
     };
@@ -151,7 +151,21 @@ export default function RunResearchPagePage() {
             return;
         };
 
-        if (messageResearchStatus === "RESEARCHING") {
+        if (messageResearchStatus === "FORMATTING_TWEETS_AS_CLAIMS") {
+            console.log("Formatting tweets as claims...");
+            console.log("Form data", formData);
+
+            const formatTweetsAsClaimsRequest = fetch("http://localhost:3000/api/run-research/add-claims", {
+                method: "POST",
+                body: formData,
+                headers: {
+                    contentType: "application/json"
+                }
+            });
+
+            executeFetchRequest(() => formatTweetsAsClaimsRequest, "RESEARCHING");
+
+        } else if (messageResearchStatus === "RESEARCHING") {
             console.log("Researching...");
             console.log("Form data", formData);
             const verifyClaimsRequest = fetch("http://localhost:3000/api/run-research", {
@@ -163,10 +177,11 @@ export default function RunResearchPagePage() {
             });
 
             executeFetchRequest(() => verifyClaimsRequest, "DONE");
+
         } else if (messageResearchStatus === "DONE") {
             setTimeout(() => {
                 setResearchProgressModalIsOpen(false);
-            })
+            });
         }
 
     }, [messageResearchStatus]);
@@ -186,9 +201,7 @@ export default function RunResearchPagePage() {
 
     return (
     <main id="research-page" className="p-4 min-h-screen h-full max-w-4xl mx-auto flex flex-col gap-2">
-        {/* {messageResearchStatus !== "CLOSE" && */}
             <ResearchProgressModalComponent researchProgressModalIsOpen={researchProgressModalIsOpen} messageResearchStatus={messageResearchStatus} setResearchProgressModalIsOpen={setResearchProgressModalIsOpen} />
-        {/* } */}
 
         <h1 hidden>
             Research Task
