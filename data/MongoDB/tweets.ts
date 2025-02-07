@@ -45,7 +45,11 @@ export const tweetItemSchema = new mongoose.Schema({
     reply_count: Number,
     quote_count: Number,
     views: Number,
-    timestamp: Number
+    timestamp: Number,
+    parsedToClaim: {
+        type: Boolean,
+        default: false
+    }
 });
 
 // make a tweet schema, with the following components

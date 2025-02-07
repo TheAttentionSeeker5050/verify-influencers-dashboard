@@ -20,11 +20,21 @@ export async function POST(request: Request) {
     try {
         // get all the tweets of the influencer using mongoose client
         const tweetModel = mongoClient.model("tweets", tweetSchema);
-        const tweets = (await tweetModel.findOne({ userHandle: influencerId }))?.tweets ?? [];
+        const tweets = ((await tweetModel.findOne({ userHandle: influencerId }))?.tweets ?? []).filter((tweet) => !tweet.parsedToClaim);
 
         // map the tweets into an array of individual string text from tweets
         const tweetTextArray = tweets.map((tweet) => {
             return tweet.text;
+        });
+
+        // Make a second OpenAI api call to cross validate if the claims are already present in the database
+        // First make a call to the database to get all the claims for the influencer, map them to an array of strings
+        const claimsFromDB = await pgClient.claim.findMany({
+            where: {
+                influencerId: influencerId
+            }
+        }).then((claims) => {
+            return claims.map((claim) => claim.claim);
         });
 
         if (tweetTextArray.length === 0) {
@@ -55,7 +65,20 @@ export async function POST(request: Request) {
                     },
                     {
                         role: "user",
-                        content: `Extract unique health-related claims from the following tweets. Return a JSON 2D array where each entry consists of a claim and its category (Nutrition, Fitness, Medicine, Mental Health). If a tweet does not contain a health-related claim, exclude it. Tweets: ${JSON.stringify(tweetTextArray)}`
+                        content: `Extract unique health-related claims from the following tweets. Return a JSON 2D array where each entry consists of a claim and its category (Nutrition, Fitness, Medicine, Mental Health). \n
+                        If a tweet does not contain a health-related claim, exclude it. \n
+                        ----------------------------- \n
+                        A health related claims has the following characteristics: \n
+                        - It is a statement that can be verified or refuted \n
+                        - It is related to health, fitness, nutrition or mental health \n
+                        - It is a statement that can be categorized into one of the following categories: Nutrition, Fitness, Medicine, Mental Health \n
+                        - It is a statement that is not a question, and is measurable, verifiable, or refutable \n
+                        - Can confirm, affirm or deny a statement, tyhe health effects of a habit or food, or the effects of a treatment \n
+                        ----------------------------- \n
+                        Also filter out the claims that are already present in the ClaimsFromDB argument, this means that if a claim is simmilar to the ones in the database exlude it from the output of this prompt. \n 
+                        ----------------------------- \n
+                        Tweets: ${JSON.stringify(tweetTextArray)} \n
+                        Claims already existent Database (ClaimsFromDB): ${JSON.stringify(claimsFromDB)}`
                     }
                 ],
                 max_tokens: 600
@@ -76,8 +99,6 @@ export async function POST(request: Request) {
             }
         }
 
-        console.log("Individual claims first element", individualClaimsArray[0]);
-
         await Promise.all(individualClaimsArray.map(async (claim) => {
             // Save the claim to the database
             await pgClient.claim.create({
@@ -90,23 +111,11 @@ export async function POST(request: Request) {
             });
         }));
 
-        // console.log("Tweets", tweets[0]);
-        // Influencer prisma schema
-        // model Claim {
-        //     id                 Int        @id @default(autoincrement())
-        //     influencer         Influencer @relation(fields: [influencerId], references: [id])
-        //     influencerId       Int
-        //     claim              String
-        //     tweetId            String
-        //     verificationStatus String
-        //     category           Category   @relation(fields: [categoryId], references: [id])
-        //     categoryId         Int // this category is different from the category of the influencer
-        //     createdAt          DateTime   @default(now())
-        //     updatedAt          DateTime   @updatedAt
-        //     aiAnalysis         String?
-        //     trustScore         Float?
-        //     claimSource        String?
-        //   }
+        // Update the tweets in the mongo database to have the parsedToClaim field set to true
+        Promise.all(tweets.map(async (tweet) => {
+            // This will select the tweet that has the tweet_id that matches the tweet_id of the tweet in the array, then set the parsedToClaim field to true
+            await tweetModel.updateOne({ "tweets.tweet_id": tweet.tweet_id }, { $set: { "tweets.$.parsedToClaim": true } });
+        }));
     } catch (error) {
         console.error("Error", error);
     } finally {

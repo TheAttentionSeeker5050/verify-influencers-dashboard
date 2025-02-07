@@ -69,10 +69,9 @@ export async function POST(request: Request) {
         const influencerTweetsFromDB = await tweetModel.findOne({ userHandle: influencerId });
 
         // get the last date from the influencer tweets from the database. They are ordered by creation date in descending order
-        const lastDate = influencerTweetsFromDB?.tweets[influencerTweetsFromDB.tweets.length - 1]?.creation_date ?? null;
+        const lastDate = influencerTweetsFromDB?.tweets[influencerTweetsFromDB?.tweets?.length - 1]?.creation_date ?? null;
         
         while (true) {
-            console.log("iteration");
             if (!continuationToken) {
                 url = `${TWITTER_API_URL}${GET_USER_TWEETS}?username=${formatTwitterHandleNoArrobase(influencerId)}&limit=40&include_replies=false&include_pinned=false`;
             } else {
@@ -84,11 +83,17 @@ export async function POST(request: Request) {
 
             result = await response.json();
 
+            // This is a safeguard in case of an error on fetching the request or if exceeded the monthly quotas
+            if (!result || !result.results) {
+                break;
+            }
+
             // url encode result.continuation_token
             continuationToken = encodeURIComponent(result.continuation_token);
 
             // get the last tweet timestamp
-            const lastTweetTimestamp = result.results[result.results.length - 1].creation_date;
+            const lastTweetTimestamp = result.results[result.results.lenght - 1].creation_date ?? "";
+
 
             // if te last tweet timestamp on the fetched requests is less than the start date from request body, break
             if (new Date(lastTweetTimestamp) < startDate || new Date(lastTweetTimestamp).toString() === "Invalid Date") {

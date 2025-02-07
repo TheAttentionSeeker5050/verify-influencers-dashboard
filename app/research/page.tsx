@@ -71,7 +71,6 @@ export default function RunResearchPagePage() {
                 }
                 return response.json();
             }).then(async (data) => {
-                console.log(data);
                 setMessageResearchStatus(nextStatus);
                 return data;
             }).catch((error) => {
