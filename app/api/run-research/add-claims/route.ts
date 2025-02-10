@@ -1,6 +1,7 @@
 import getMongooseClient from "@/config/mongoose-client";
 import getPrismaClient from "@/config/prisma-client";
 import { tweetSchema } from "@/data/MongoDB/tweets";
+import prompts from "@/LLM/prompts.json";
 
 export async function POST(request: Request) {
     const formData = await request.formData();
@@ -52,6 +53,8 @@ export async function POST(request: Request) {
             return Response.json({ message: "OpenAI environment variables are not set" }, { status: 500, headers: { "Content-Type": "application/json" } });
         }
 
+        const prompt = prompts["add-influencer-claims"].replace("{{tweetTextArray}}", JSON.stringify(tweetTextArray)).replace("{{claimsFromDB}}", JSON.stringify(claimsFromDB));
+
         // Make the API call to OpenAI to generate the claims
         const openAiResponse = await fetch(process.env.OPEN_AI_URL, {
             method: "POST",
@@ -70,20 +73,7 @@ export async function POST(request: Request) {
                     },
                     {
                         role: "user",
-                        content: `Extract unique health-related claims from the following tweets. Return a JSON 2D array where each entry consists of a claim and its category (Nutrition, Fitness, Medicine, Mental Health). \n
-                        If a tweet does not contain a health-related claim, exclude it. \n
-                        ----------------------------- \n
-                        A health related claims has the following characteristics: \n
-                        - It is a statement that can be verified or refuted \n
-                        - It is related to health, fitness, nutrition or mental health \n
-                        - It is a statement that can be categorized into one of the following categories: Nutrition, Fitness, Medicine, Mental Health \n
-                        - It is a statement that is not a question, and is measurable, verifiable, or refutable \n
-                        - Can confirm, affirm or deny a statement, tyhe health effects of a habit or food, or the effects of a treatment \n
-                        ----------------------------- \n
-                        Also filter out the claims that are already present in the ClaimsFromDB argument, this means that if a claim is simmilar to the ones in the database exlude it from the output of this prompt. \n 
-                        ----------------------------- \n
-                        Tweets: ${JSON.stringify(tweetTextArray)} \n
-                        Claims already existent Database (ClaimsFromDB): ${JSON.stringify(claimsFromDB)}`
+                        content: prompt
                     }
                 ],
                 max_tokens: 600

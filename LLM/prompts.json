@@ -1,7 +1,12 @@
 {
-    "get-influencer-claims": "",
-    "remove-duplicate-claims": "",
-    "categorize-influencer-claim": "",
-    "verify-influencer-claim": ""
-}
+    "add-influencer-claims": "Extract unique health-related claims from the following tweets. Return a JSON 2D array where each entry consists of a claim and its category (Nutrition, Fitness, Medicine, Mental Health). If a tweet does not contain a health-related claim, exclude it. ----------------------------- A health-related claim has the following characteristics: - It is a statement that can be verified or refuted - It is related to health, fitness, nutrition, or mental health - It is a statement that can be categorized into one of the following categories: Nutrition, Fitness, Medicine, Mental Health - It is a statement that is not a question and is measurable, verifiable, or refutable - It can confirm, affirm, or deny a statement, the health effects of a habit or food, or the effects of a treatment ----------------------------- Also, filter out the claims that are already present in the ClaimsFromDB argument. This means that if a claim is similar to the ones in the database, exclude it from the output of this prompt. ----------------------------- Tweets: {{tweetTextArray}} Claims already existent in Database (ClaimsFromDB): {{claimsFromDB}}",
 
+    
+    "remove-duplicate-claims": "",
+    
+    "categorize-influencer-claim": "",
+    
+    "verify-influencer-claim": "Given an array of objects containing 'id' and 'claim', compare each claim against medical information publicly available on google scholar. Determine if each claim is 'verified', 'questionable', or 'debunked' based on scientific evidence. Return only a JSON array of objects with 'id' and 'newVerificationStatus' without any explanations or additional text. Example Input: [{\"id\": 1, \"claim\": \"Drinking lemon water detoxifies the liver\"}]. Example Output: [{\"id\": 1, \"newVerificationStatus\": \"debunked\"}]. Now, process the following claims: {{claims}}",
+    
+    "verify-influencer-claim-with-medical-journals": "Given an array of objects containing 'id' and 'claim', compare each claim against the following medical journals: {{medical_journals}}. Determine if each claim is 'verified', 'questionable', or 'debunked' based on scientific evidence. Return only a JSON array of objects with 'id' and 'newVerificationStatus' without any explanations or additional text.  Example Input: [{\"id\": 1, \"claim\": \"Omega-3 supplements improve heart health\"}]. Example Output: [{\"id\": 1, \"newVerificationStatus\": \"verified\"}]. Now, process the following claims: {{claims}}"
+}
