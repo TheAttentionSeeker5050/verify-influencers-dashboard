@@ -22,6 +22,11 @@ export async function POST(request: Request) {
         const tweetModel = mongoClient.model("tweets", tweetSchema);
         const tweets = ((await tweetModel.findOne({ userHandle: influencerId }))?.tweets ?? []).filter((tweet) => !tweet.parsedToClaim);
 
+        // if not tweets are found to parse to claims return a 200 and go to next step, as they may already be parsed
+        if (tweets.length === 0) {
+            return Response.json({ message: "No tweets found for this influencer" }, { status: 200, headers: { "Content-Type": "application/json" } });
+        }
+
         // map the tweets into an array of individual string text from tweets
         const tweetTextArray = tweets.map((tweet) => {
             return tweet.text;

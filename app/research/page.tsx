@@ -89,10 +89,11 @@ export default function RunResearchPagePage() {
         // get the data from the form 
         const form = e.currentTarget;
         const newFormData = new FormData(form);
+        
         // add the dynamic form values to the form data
-        formData.append("research-focus", researchFocus);
-        formData.append("time-range", timeRange);
-        formData.append("verify-with-scientific-journals", selectedScientificJournalsList.join(", "));
+        newFormData.append("research-focus", researchFocus);
+        newFormData.append("time-range", timeRange);
+        newFormData.append("verify-with-scientific-journals", selectedScientificJournalsList.join(", "));
 
         setFormData(newFormData);
 
@@ -152,7 +153,6 @@ export default function RunResearchPagePage() {
 
         if (messageResearchStatus === "FORMATTING_TWEETS_AS_CLAIMS") {
             console.log("Formatting tweets as claims...");
-            console.log("Form data", formData);
 
             const formatTweetsAsClaimsRequest = fetch("http://localhost:3000/api/run-research/add-claims", {
                 method: "POST",
@@ -166,7 +166,7 @@ export default function RunResearchPagePage() {
 
         } else if (messageResearchStatus === "RESEARCHING") {
             console.log("Researching...");
-            console.log("Form data", formData);
+            
             const verifyClaimsRequest = fetch("http://localhost:3000/api/run-research", {
                 method: "POST",
                 body: formData,

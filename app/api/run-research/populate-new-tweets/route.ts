@@ -13,6 +13,7 @@ export async function POST(request: Request) {
     const influencerId : string = formData.get("influencer-id")?.toString() ?? "";
 
     if (!influencerId) {
+        console.log("Influencer ID not provided");
         return Response.json({ message: "Influencer ID not provided" }, { status: 400, headers: { "Content-Type": "application/json" } });
     }
 
@@ -36,6 +37,7 @@ export async function POST(request: Request) {
             startDate.setFullYear(startDate.getFullYear() - 100);
             break;
         default:
+            console.log("Invalid time range");
             return Response.json({ message: "Invalid time range" }, { status: 400, headers: { "Content-Type": "application/json" } });
     }
 
